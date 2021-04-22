@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38C670EB-3406-CE97-D033-9FC1391629ED" name="Relation_3">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductId" id="FA8B961B-125C-3413-FA46-7BE67BB2D3FD">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23C56F8C-41C5-36C0-7C78-498989AFFE08" referredColumn="16712CEF-9CEF-CA9A-2D43-1CFC8D21CD7A"/>
+</associations>
+</Column>
+<Column name="Color_Id" id="3F01ED1A-A5A1-D43D-96B0-098D902F7CE4">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD18B04A-F278-7D64-9333-0D992F5AC640" referredColumn="8F675313-EF83-5878-D2EA-6BEC01DB4A21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97140BC9-2236-7259-41FF-51FA4997E2D7" name="Relation_3_PK">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA8B961B-125C-3413-FA46-7BE67BB2D3FD"/>
+<colUsage columnID="3F01ED1A-A5A1-D43D-96B0-098D902F7CE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A41216F-27D6-3EDE-A650-DCDC8B6C7672" name="Relation_3_Product_FK">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>B46CA10C-2419-9B7B-922C-C4851C3C6B09</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA8B961B-125C-3413-FA46-7BE67BB2D3FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25BF5956-F4FF-8537-C322-5EFBFDA8B959" name="Relation_3_Color_FK">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>B46CA10C-2419-9B7B-922C-C4851C3C6B09</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F01ED1A-A5A1-D43D-96B0-098D902F7CE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

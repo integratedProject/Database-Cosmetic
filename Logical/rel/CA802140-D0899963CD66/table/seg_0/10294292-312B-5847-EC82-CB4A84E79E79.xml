@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10294292-312B-5847-EC82-CB4A84E79E79" name="Brand">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>7E86FB74-354B-81F5-3401-963D8B947F55</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BrandId" id="E3550C66-42E0-0BE9-8C4E-CA19A0251450">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>E1414D2E-5A80-7D52-A645-4615C7D7AC1C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BrandName" id="A8E4062E-198B-1EEA-0830-373D830A6020">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>11A229F5-4393-9853-C632-EBA6AE4B7BCF</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B6874D2-2920-319D-DBAF-6E3E85BCEE69" name="Brand_PK">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>22947EB8-A994-411D-EE8C-09F12C1DC528</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3550C66-42E0-0BE9-8C4E-CA19A0251450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

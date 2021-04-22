@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="055E2450-96F7-FE74-79D1-790EE8BBF2B1" name="Product">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>BC4EA383-E888-0810-F4C9-C760A6182EC5</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductId" id="16712CEF-9CEF-CA9A-2D43-1CFC8D21CD7A">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>FD8A3B4C-0294-1B0D-C235-9BC74216BFE3</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductName" id="442C3AAD-FF5B-6A7B-00B0-C7B9E4046238">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>F3A224DC-1CEF-B713-7637-35BF165326FC</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductImage" id="F7092ED1-FE98-F0C1-81EC-711DA0B044A2">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>C08A237A-EB9E-0890-FE68-BE020AC7CAFF</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="61535688-80E7-DD96-EBCC-1D4064DE7079">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>87C59261-B320-3DE8-103C-9FCC29B1CE61</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="5485E0C8-732F-2388-8331-6907CE8DE085">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>E38DAE4D-FA5E-246E-0B2A-7556E396848A</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BrandId" id="31374D50-92F6-E39B-F881-B6CE60753F7D">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>D0B72BD2-3C7F-F459-5A4E-EAF4EF2BE984</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7F5760A-4D03-325D-E704-57D57EE557FE" referredColumn="E3550C66-42E0-0BE9-8C4E-CA19A0251450"/>
+</associations>
+</Column>
+<Column name="ProductDetailId" id="7D277518-EF07-B5DE-308F-E565882A4FD7">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>55D841E7-59F2-8EBA-9F9D-71F44A326D5A</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29C65E34-5556-9968-5837-398163B1AEB1" referredColumn="BA2B6C7A-5F47-39F7-B60C-E7F3266E8E16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="755CC990-BBAF-6CB7-C56E-521F4E1BEFCB" name="Product_PK">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>86426F14-B79E-7131-7E27-063F6227F581</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16712CEF-9CEF-CA9A-2D43-1CFC8D21CD7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C73830F-3B5C-8A32-7981-2E15BC5BFEF6" name="Product__IDX">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>33810043-23D6-5AA3-E266-A3ABBEBB11C8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7D277518-EF07-B5DE-308F-E565882A4FD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0A4B4FB-DF1B-B213-B3A1-3C30F1F0FA60" name="Product_Brand_FK">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:02:36 UTC</createdTime>
+<generatorID>605ECB30-0485-19CD-5920-2331FAFD3B8A</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31374D50-92F6-E39B-F881-B6CE60753F7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C41F7369-1A62-34EC-1FC6-C4DA082CAA40" name="Product_Product_detail_FK">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:32:57 UTC</createdTime>
+<generatorID>33810043-23D6-5AA3-E266-A3ABBEBB11C8</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D277518-EF07-B5DE-308F-E565882A4FD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

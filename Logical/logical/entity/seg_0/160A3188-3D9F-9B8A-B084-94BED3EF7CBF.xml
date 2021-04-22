@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="160A3188-3D9F-9B8A-B084-94BED3EF7CBF" name="Color">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:00:42 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CA802140-3FA6-E200-8989-D0899963CD66" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ColorId" id="0450917F-6953-F5F8-F0BB-4DE812AADA36">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:00:48 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CA802140-3FA6-E200-8989-D0899963CD66" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ColorName" id="17D72BE2-55C2-5F9F-AB3F-2AE65FCF66C4">
+<createdBy>pungp</createdBy>
+<createdTime>2021-04-22 10:01:06 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CA802140-3FA6-E200-8989-D0899963CD66" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
