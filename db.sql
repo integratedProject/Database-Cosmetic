@@ -452,6 +452,16 @@ insert into product_color values('C09','NE06');
 insert into product_color values('C10','NE06');
 
 
+--grant role to members (DB079, DB083)
+create role r_cosmetic;
+grant select, update on product to r_cosmetic;
+grant select, update on brand to r_cosmetic;
+grant select, update on color to r_cosmetic;
+grant select, update on product_color to r_cosmetic;
+
+grant r_cosmetic to DB079;
+grant r_cosmetic to DB083;
+
 
 
 
