@@ -176,7 +176,7 @@ insert into product values('NB06','Uninhibited blush duo','https://www.narscosme
 
                             
                             
-sqinsert into product values('NE01','Summer solstice eyeshadow palette','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw81e22187/2021/April/BronzeCollection/0194251011455_eyepalette_soldieropen.jpg?sw=856&sh=750&sm=fit',
+insert into product values('NE01','Summer solstice eyeshadow palette','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw81e22187/2021/April/BronzeCollection/0194251011455_eyepalette_soldieropen.jpg?sw=856&sh=750&sm=fit',
                             1550.00,'13/03/2019','A limited-edition eyeshadow palette featuring nine rich bronze and golden tones.'
                             ,'B03');
 insert into product values('NE02','Uninhibited eyeshadow palette','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwdecd47de/2021/February/Uninhibited/0194251015323-soldier.jpg?sw=856&sh=750&sm=fit',
@@ -208,10 +208,254 @@ insert into color values('C09','Blue');
 insert into color values('C10','Multi');
  
 
---table product_color
-insert into product_color values('','');
-  
-  
+--table product_color : Lipstick DIOR color 4
+insert into product_color values('C02','DL01');
+insert into product_color values('C01','DL01');
+insert into product_color values('C07','DL01');
+insert into product_color values('C09','DL01');
+insert into product_color values('C09','DL02');
+insert into product_color values('C07','DL02');
+insert into product_color values('C05','DL02');
+insert into product_color values('C06','DL02');
+insert into product_color values('C01','DL03');
+insert into product_color values('C02','DL03');
+insert into product_color values('C03','DL03');
+insert into product_color values('C04','DL03');
+insert into product_color values('C05','DL04');
+insert into product_color values('C08','DL04');
+insert into product_color values('C10','DL04');
+insert into product_color values('C07','DL04');
+insert into product_color values('C09','DL05');
+insert into product_color values('C04','DL05');
+insert into product_color values('C03','DL05');
+insert into product_color values('C02','DL05');
+insert into product_color values('C01','DL06');
+insert into product_color values('C02','DL06');
+insert into product_color values('C05','DL06');
+insert into product_color values('C07','DL06');
+
+
+--table product_color : Lipstick CHENEL color 4
+insert into product_color values('C01','CL01');
+insert into product_color values('C05','CL01');
+insert into product_color values('C07','CL01');
+insert into product_color values('C09','CL01');
+insert into product_color values('C03','CL02');
+insert into product_color values('C05','CL02');
+insert into product_color values('C06','CL02');
+insert into product_color values('C10','CL02');
+insert into product_color values('C01','CL03');
+insert into product_color values('C03','CL03');
+insert into product_color values('C05','CL03');
+insert into product_color values('C09','CL03');
+insert into product_color values('C01','CL04');
+insert into product_color values('C02','CL04');
+insert into product_color values('C05','CL04');
+insert into product_color values('C07','CL04');
+insert into product_color values('C03','CL05');
+insert into product_color values('C07','CL05');
+insert into product_color values('C09','CL05');
+insert into product_color values('C10','CL05');
+insert into product_color values('C01','CL06');
+insert into product_color values('C02','CL06');
+insert into product_color values('C03','CL06');
+insert into product_color values('C04','CL06');
+
+
+--table product_color : Lipstick NARS color 4
+insert into product_color values('C01','NL01');
+insert into product_color values('C02','NL01');
+insert into product_color values('C03','NL01');
+insert into product_color values('C04','NL01');
+insert into product_color values('C02','NL02');
+insert into product_color values('C05','NL02');
+insert into product_color values('C06','NL02');
+insert into product_color values('C07','NL02');
+insert into product_color values('C01','NL03');
+insert into product_color values('C04','NL03');
+insert into product_color values('C06','NL03');
+insert into product_color values('C08','NL03');
+insert into product_color values('C02','NL04');
+insert into product_color values('C05','NL04');
+insert into product_color values('C09','NL04');
+insert into product_color values('C10','NL04');
+insert into product_color values('C03','NL05');
+insert into product_color values('C04','NL05');
+insert into product_color values('C05','NL05');
+insert into product_color values('C06','NL05');
+insert into product_color values('C04','NL06');
+insert into product_color values('C08','NL06');
+insert into product_color values('C09','NL06');
+insert into product_color values('C10','NL06');
+
+
+--table product_color : Blush CHENEL color 4
+insert into product_color values('C01','CB01');
+insert into product_color values('C03','CB01');
+insert into product_color values('C04','CB01');
+insert into product_color values('C07','CB01');
+insert into product_color values('C02','CB02');
+insert into product_color values('C04','CB02');
+insert into product_color values('C05','CB02');
+insert into product_color values('C08','CB02');
+insert into product_color values('C03','CB03');
+insert into product_color values('C04','CB03');
+insert into product_color values('C05','CB03');
+insert into product_color values('C09','CB03');
+insert into product_color values('C05','CB04');
+insert into product_color values('C06','CB04');
+insert into product_color values('C09','CB04');
+insert into product_color values('C10','CB04');
+insert into product_color values('C03','CB05');
+insert into product_color values('C05','CB05');
+insert into product_color values('C08','CB05');
+insert into product_color values('C09','CB05');
+insert into product_color values('C02','CB06');
+insert into product_color values('C06','CB06');
+insert into product_color values('C08','CB06');
+insert into product_color values('C10','CB06');
+
+
+--table product_color : Blush DIOR color 4
+insert into product_color values('C01','DB01');
+insert into product_color values('C03','DB01');
+insert into product_color values('C04','DB01');
+insert into product_color values('C05','DB01');
+insert into product_color values('C02','DB02');
+insert into product_color values('C03','DB02');
+insert into product_color values('C04','DB02');
+insert into product_color values('C05','DB02');
+insert into product_color values('C01','DB03');
+insert into product_color values('C03','DB03');
+insert into product_color values('C05','DB03');
+insert into product_color values('C07','DB03');
+insert into product_color values('C03','DB04');
+insert into product_color values('C05','DB04');
+insert into product_color values('C06','DB04');
+insert into product_color values('C09','DB04');
+insert into product_color values('C02','DB05');
+insert into product_color values('C03','DB05');
+insert into product_color values('C05','DB05');
+insert into product_color values('C10','DB05');
+insert into product_color values('C05','DB06');
+insert into product_color values('C06','DB06');
+insert into product_color values('C07','DB06');
+insert into product_color values('C08','DB06');
+
+
+--table product_color : Blush NARS color 4
+insert into product_color values('C01','NB01');
+insert into product_color values('C02','NB01');
+insert into product_color values('C03','NB01');
+insert into product_color values('C04','NB01');
+insert into product_color values('C03','NB02');
+insert into product_color values('C04','NB02');
+insert into product_color values('C05','NB02');
+insert into product_color values('C06','NB02');
+insert into product_color values('C02','NB03');
+insert into product_color values('C04','NB03');
+insert into product_color values('C08','NB03');
+insert into product_color values('C10','NB03');
+insert into product_color values('C03','NB04');
+insert into product_color values('C08','NB04');
+insert into product_color values('C09','NB04');
+insert into product_color values('C10','NB04');
+insert into product_color values('C01','NB05');
+insert into product_color values('C04','NB05');
+insert into product_color values('C08','NB05');
+insert into product_color values('C09','NB05');
+insert into product_color values('C07','NB06');
+insert into product_color values('C08','NB06');
+insert into product_color values('C09','NB06');
+insert into product_color values('C10','NB06');
+
+
+--table product_color : Eyeshadows DIOR color 4
+insert into product_color values('C01','DE01');
+insert into product_color values('C03','DE01');
+insert into product_color values('C05','DE01');
+insert into product_color values('C09','DE01');
+insert into product_color values('C02','DE02');
+insert into product_color values('C04','DE02');
+insert into product_color values('C06','DE02');
+insert into product_color values('C10','DE02');
+insert into product_color values('C02','DE03');
+insert into product_color values('C05','DE03');
+insert into product_color values('C07','DE03');
+insert into product_color values('C09','DE03');
+insert into product_color values('C05','DE04');
+insert into product_color values('C06','DE04');
+insert into product_color values('C08','DE04');
+insert into product_color values('C10','DE04');
+insert into product_color values('C01','DE05');
+insert into product_color values('C02','DE05');
+insert into product_color values('C05','DE05');
+insert into product_color values('C08','DE05');
+insert into product_color values('C01','DE06');
+insert into product_color values('C03','DE06');
+insert into product_color values('C05','DE06');
+insert into product_color values('C07','DE06');
+
+
+--table product_color : Eyeshadows CHENEL color 4
+insert into product_color values('C02','CE01');
+insert into product_color values('C04','CE01');
+insert into product_color values('C05','CE01');
+insert into product_color values('C08','CE01');
+insert into product_color values('C01','CE02');
+insert into product_color values('C03','CE02');
+insert into product_color values('C06','CE02');
+insert into product_color values('C07','CE02');
+insert into product_color values('C01','CE03');
+insert into product_color values('C02','CE03');
+insert into product_color values('C03','CE03');
+insert into product_color values('C04','CE03');
+insert into product_color values('C02','CE04');
+insert into product_color values('C05','CE04');
+insert into product_color values('C07','CE04');
+insert into product_color values('C10','CE04');
+insert into product_color values('C03','CE05');
+insert into product_color values('C04','CE05');
+insert into product_color values('C05','CE05');
+insert into product_color values('C08','CE05');
+insert into product_color values('C04','CE06');
+insert into product_color values('C06','CE06');
+insert into product_color values('C08','CE06');
+insert into product_color values('C10','CE06');
+
+
+
+--table product_color : Eyeshadows NARS color 4
+insert into product_color values('C01','NE01');
+insert into product_color values('C03','NE01');
+insert into product_color values('C05','NE01');
+insert into product_color values('C06','NE01');
+insert into product_color values('C05','NE02');
+insert into product_color values('C06','NE02');
+insert into product_color values('C07','NE02');
+insert into product_color values('C09','NE02');
+insert into product_color values('C02','NE03');
+insert into product_color values('C03','NE03');
+insert into product_color values('C04','NE03');
+insert into product_color values('C10','NE03');
+insert into product_color values('C02','NE04');
+insert into product_color values('C03','NE04');
+insert into product_color values('C05','NE04');
+insert into product_color values('C08','NE04');
+insert into product_color values('C01','NE05');
+insert into product_color values('C04','NE05');
+insert into product_color values('C08','NE05');
+insert into product_color values('C10','NE05');
+insert into product_color values('C06','NE06');
+insert into product_color values('C07','NE06');
+insert into product_color values('C09','NE06');
+insert into product_color values('C10','NE06');
+
+
+
+
+
+
  
  
  
