@@ -134,66 +134,65 @@ insert into product values('CE06','Les beiges eyeshadow palette','https://www.ch
                             
 --table product : Lipstick NARS 'B03'
 insert into product values('NL01','Nars Lipstick','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw237cad07/hi-res/0607845029441.jpg?sw=856&sh=750&sm=fit',
-                            850.00,'21/06/2019','A NEW LINEUP OF LIPSTICK IN MATTE, SATIN, AND SHEER FINISHES. INNOVATIVE NEW FORMULA DELIVERS INSTANT COLOR VIBRANCY AND CONDITIONS LIPS FOR A HYDRATED FEEL.'
+                            850.00,'21/06/2019','A new lineup of lipstick in matte, satin, and sheer finishes. innovative new formula delivers instant color vibrancy and conditions lips for a hydrated feel.'
                             ,'B03');
-insert into product values('NL02','THE ICONIC LIP BUNDLE','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw70e5f8cd/2020/October/Product_Sets/THE_ICONIC_LIP_BUNDLE.jpg?sw=856&sh=750&sm=fit',
+insert into product values('NL02','The iconic lip bundle','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw70e5f8cd/2020/October/Product_Sets/THE_ICONIC_LIP_BUNDLE.jpg?sw=856&sh=750&sm=fit',
                             1350.00,'11/08/2019','The bestsellers you crave. Get them together and save. Line and define with 15% off your custom lip duo. $50 value.'
                             ,'B03');
-insert into product values('NL03','AUDACIOUS LIPSTICK','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwb6172f7a/hi-res/0607845094609.jpg?sw=856&sh=750&sm=fit',
-                            1100.00,'02/04/2020','LIPSTICK SO SHAMELESSLY SEDUCTIVE IN TOUCH AND TEXTURE THE SENSATION IS AUDACIOUS. GLIDES ON LIKE SATIN WITH SINGLE-STROKE COVERAGE IN A SPECTRUM OF SHADES.'
+insert into product values('NL03','Audacious lipstick','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwb6172f7a/hi-res/0607845094609.jpg?sw=856&sh=750&sm=fit',
+                            1100.00,'02/04/2020','Lipstick so shamelessly seductive in touch and texture the sensation is audacious. glides on like satin with single-stroke coverage in a spectrum of shades.'
                             ,'B03');
-insert into product values('NL04','AUDACIOUS SHEER MATTE LIPSTICK','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw2ca734b2/2020/December/Claudette_2020/Sheer_Matte_Lipstick/Anouk/0194251003177_soldier.jpg?sw=856&sh=750&sm=fit',
-                            1100.00,'03/04/2020','A LIMITED EDITION MATTE LIPSTICK FEATURING MEDIUM-SHEER COVERAGE AND A SOFT-FOCUS FINISH.'
+insert into product values('NL04','Audacious sheer matte lipstick','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw2ca734b2/2020/December/Claudette_2020/Sheer_Matte_Lipstick/Anouk/0194251003177_soldier.jpg?sw=856&sh=750&sm=fit',
+                            1100.00,'03/04/2020','A limited edition matte lipstick featuring medium-sheer coverage and a soft-focus finish.'
                             ,'B03');
-insert into product values('NL05','AUDACIOUS LIPSTICK','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw71fb1239/2020/December/Claudette_2020/Audacious_Lipstick/Claudette/0194251009186_soldier.jpg?sw=856&sh=750&sm=fit',
-                            1100.00,'03/04/2020','FOUR LIMITED EDITION SHADES OF OUR MOST LUXURIOUS LIPSTICK FORMULA. PROVIDES BOLD, SINGLE-STROKE COLOR IN JUST ONE SWIPE.'
+insert into product values('NL05','Audacious lipstick','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw71fb1239/2020/December/Claudette_2020/Audacious_Lipstick/Claudette/0194251009186_soldier.jpg?sw=856&sh=750&sm=fit',
+                            1100.00,'03/04/2020','Four limited edition shades of our most luxurious lipstick formula. provides bold, single-stroke color in just one swipe.'
                             ,'B03');
-insert into product values('NL06','AIR MATTE LIP COLOR','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwbec8d586/2021/January/AirMatte/Lip/0194251000312-soldier.jpg?sw=856&sh=750&sm=fit',
-                            850.00,'21/06/2019',''
+insert into product values('NL06','Air matte lip color','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwbec8d586/2021/January/AirMatte/Lip/0194251000312-soldier.jpg?sw=856&sh=750&sm=fit',
+                            850.00,'21/06/2019',' Four limited edition shades of our most luxurious lipstick formula. provides bold, single-stroke color in just one swipe.'
                             ,'B03');
 
                             
                             
 --table product : Blush NARS 'B03'
 insert into product values('NB01','Nars Blush','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwf7aa4788/hi-res/0607845040132.jpg?sw=856&sh=750&sm=fit',
-                            1000.00,'17/02/2019','THE ULTIMATE AUTHORITY IN BLUSH, NARS OFFERS THE INDUSTRYS MOST ICONIC SHADES FOR CHEEKS.'
+                            1000.00,'17/02/2019','The ultimate authority in blush, nars offers the industrys most iconic shades for cheeks.'
                             ,'B03');
-insert into product values('NB02','AIR MATTE BLUSH','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwc4a07701/2021/January/AirMatte/Blush/torch-soldier.jpg?sw=856&sh=750&sm=fit',
-                            1000.00,'14/04/2021','A UNIQUE MOUSSE BLUSH THAT TRANSFORMS INTO A VELVETY POWDER FOR A WEIGHTLESS, CLOUD-LIKE WASH OF CHEEK COLOR.'
+insert into product values('NB02','Air matte blush','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwc4a07701/2021/January/AirMatte/Blush/torch-soldier.jpg?sw=856&sh=750&sm=fit',
+                            1000.00,'14/04/2021','A unique mousse blush that transforms into a velvety powder for a weightless, cloud-like wash of cheek color.'
                             ,'B03');
-insert into product values('NB03','THE MULTIPLE','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwade78599/hi-res/0607845015178.jpg?sw=856&sh=750&sm=fit',
-                            1250.00,'19/09/2019','FRANÇOIS NARS’ ICONIC INNOVATION, IT’S THE ORIGINAL MULTI-PURPOSE STICK FOR EYES, CHEEKS, LIPS AND BODY. '
+insert into product values('NB03','The multiple','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwade78599/hi-res/0607845015178.jpg?sw=856&sh=750&sm=fit',
+                            1250.00,'19/09/2019','Franois nars’ iconic innovation, it’s the original multi-purpose stick for eyes, cheeks, lips and body. '
                             ,'B03');
-insert into product values('NB04','LIQUID BLUSH','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw70d0e28a/hi-res/0607845051558.jpg?sw=856&sh=750&sm=fit',
-                            1000.00,'18/11/2020','A RUSH OF NATURAL-LOOKING COLOR IN A NEW, LIQUID BLUSH FORMULA THAT BUILDS EASILY, BLENDS EFFORTLESSLY.'
+insert into product values('NB04','Liquid blush','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw70d0e28a/hi-res/0607845051558.jpg?sw=856&sh=750&sm=fit',
+                            1000.00,'18/11/2020','A rush of natural-looking color in a new, liquid blush formula that builds easily, blends effortlessly.'
                             ,'B03');
-insert into product values('NB05','THE AIR MATTE LIP & CHEEK BUNDLE','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwc073ec70/2021/March/Sets/air-matte-bundle_soldier.jpg?sw=856&sh=750&sm=fit',
+insert into product values('NB05','The air matte lip & cheek bundle','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwc073ec70/2021/March/Sets/air-matte-bundle_soldier.jpg?sw=856&sh=750&sm=fit',
                             1500.00,'04/04/2021','The bestsellers you crave. Get them together and save. Dare to air with 15% off a custom lip and cheek duo. $56 value.'
                             ,'B03');
-insert into product values('NB06','UNINHIBITED BLUSH DUO','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw0c78a33e/2021/February/Uninhibited/0194251025506-soldier.jpg?sw=856&sh=750&sm=fit',
+insert into product values('NB06','Uninhibited blush duo','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw0c78a33e/2021/February/Uninhibited/0194251025506-soldier.jpg?sw=856&sh=750&sm=fit',
                             1400.00,'04/06/2020','Unveil your ultimate glow with an oversized blush palette featuring bestsellers Deep Throat, a soft pink with golden sheen, and Tempted, a shimmering beige. Superfine, micronized powder pigments ensure an irresistibly silky application while sensual shades flatter with a soft-focus finish. All passion. No limits.'
                             ,'B03');
 
                             
                             
---table product : Eyeshadows NARS 'B03'
-insert into product values('NE01','SUMMER SOLSTICE EYESHADOW PALETTE','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw81e22187/2021/April/BronzeCollection/0194251011455_eyepalette_soldieropen.jpg?sw=856&sh=750&sm=fit',
-                            1550.00,'13/03/2019','A LIMITED-EDITION EYESHADOW PALETTE FEATURING NINE RICH BRONZE AND GOLDEN TONES.'
+sqinsert into product values('NE01','Summer solstice eyeshadow palette','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw81e22187/2021/April/BronzeCollection/0194251011455_eyepalette_soldieropen.jpg?sw=856&sh=750&sm=fit',
+                            1550.00,'13/03/2019','A limited-edition eyeshadow palette featuring nine rich bronze and golden tones.'
                             ,'B03');
-insert into product values('NE02','UNINHIBITED EYESHADOW PALETTE','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwdecd47de/2021/February/Uninhibited/0194251015323-soldier.jpg?sw=856&sh=750&sm=fit',
-                            1550.00,'13/03/2019','A LIMITED-EDITION EYESHADOW PALETTE FEATURING NINE HIGH-PIGMENT SHADES IN MATTE, SHIMMERING, AND METALLIC FINISHES.'
+insert into product values('NE02','Uninhibited eyeshadow palette','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwdecd47de/2021/February/Uninhibited/0194251015323-soldier.jpg?sw=856&sh=750&sm=fit',
+                            1550.00,'13/03/2019','A limited-edition eyeshadow palette featuring nine high-pigment shades in matte, shimmering, and metallic finishes.'
                             ,'B03');
-insert into product values('NE03','THE ORGASM BUNDLE','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwa8bc3ed0/2021/March/Sets/orgasm-bundle_soldier.jpg?sw=856&sh=750&sm=fit',
+insert into product values('NE03','The orgasm bundle','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwa8bc3ed0/2021/March/Sets/orgasm-bundle_soldier.jpg?sw=856&sh=750&sm=fit',
                             2500.00,'01/01/2021','The bestsellers you crave. Get them together and save. Experience the thrill with 15% off a custom Orgasm trio. $94 value.'
                             ,'B03');
-insert into product values('NE04','ST GERMAIN DES PRÉS EYESHADOW PALETTE','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw7452de63/2020/December/Claudette_2020/Eyeshadow/0194251006079_soldier.jpg?sw=856&sh=750&sm=fit',
-                            1550.00,'15/05/2020','A LIMITED EDITION EYESHADOW PALETTE FEATURING SIX WARM, NEUTRAL SHADES IN MATTE, SATIN, AND SHIMMER FINISHES. '
+insert into product values('NE04','ST germain des prs eyeshadow palette','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw7452de63/2020/December/Claudette_2020/Eyeshadow/0194251006079_soldier.jpg?sw=856&sh=750&sm=fit',
+                            1550.00,'15/05/2020','A limited edition eyeshadow palette featuring six warm, neutral shades in matte, satin, and shimmer finishes. '
                             ,'B03');
-insert into product values('NE05','EUPHORIA FACE PALETTE','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw1091435a/2020/December/Euphora_Face_Palette/0194251010465_Soldier.jpg?sw=856&sh=750&sm=fit',
-                            1850.00,'29/12/2019','A LIMITED-EDITION PALETTE FEATURING EIGHT EYESHADOWS AND THREE GLISTENING SHADES OF HIGHLIGHTER.'
+insert into product values('NE05','Euphoria face palette','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw1091435a/2020/December/Euphora_Face_Palette/0194251010465_Soldier.jpg?sw=856&sh=750&sm=fit',
+                            1850.00,'29/12/2019','A limited-edition palette featuring eight eyeshadows and three glistening shades of highlighter.'
                             ,'B03');
-insert into product values('NE06','POWERCHROME LOOSE EYE PIGMENT','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw35ceff90/hi-res/0607845091325.jpg?sw=856&sh=750&sm=fit',
-                            880.00,'12/06/2020','A LOOSE, DENSELY PACKED METALLIC EYE PIGMENT THAT GLIDES ONTO LIDS WITH INTENSE PAYOFF IN A FOIL-LIKE EFFECT.'
+insert into product values('NE06','Powerchrome loose eye pigment','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw35ceff90/hi-res/0607845091325.jpg?sw=856&sh=750&sm=fit',
+                            880.00,'12/06/2020','A Loose, densely packed metallic eye pigment that glides onto lids with intense payoff in a foil-like effect.'
                             ,'B03');
 
 --table color
@@ -210,7 +209,7 @@ insert into color values('C10','Multi');
  
 
 --table product_color
- 
+insert into product_color values('','');
   
   
  
