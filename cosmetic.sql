@@ -1,9 +1,58 @@
-#table brand
+<<<<<<< HEAD:db.sql
+
+=======
+CREATE TABLE brand (
+    brandid    VARCHAR(10) NOT NULL,
+    brandname  VARCHAR(50)
+);
+
+ALTER TABLE brand ADD CONSTRAINT brand_pk PRIMARY KEY ( brandid );
+
+CREATE TABLE color (
+    colorid    VARCHAR(10) NOT NULL,
+    colorname  VARCHAR(50)
+);
+
+ALTER TABLE color ADD CONSTRAINT color_pk PRIMARY KEY ( colorid );
+
+CREATE TABLE product (
+    productid      VARCHAR(10) NOT NULL,
+    productname    VARCHAR(100),
+    productimage   VARCHAR(2000),
+    price          DECIMAL(7, 2),
+    launch_date    DATE,
+    description    VARCHAR(4000),
+    brand_brandid  VARCHAR(10) NOT NULL
+);
+
+ALTER TABLE product ADD CONSTRAINT product_pk PRIMARY KEY ( productid );
+
+CREATE TABLE product_color (
+    colorid    VARCHAR(10) NOT NULL,
+    productid  VARCHAR(10) NOT NULL
+);
+
+ALTER TABLE product_color ADD CONSTRAINT relation_1_pk PRIMARY KEY ( colorid,
+                                                                     productid );
+
+ALTER TABLE product
+    ADD CONSTRAINT product_brand_fk FOREIGN KEY ( brand_brandid )
+        REFERENCES brand ( brandid );
+
+ALTER TABLE product_color
+    ADD CONSTRAINT relation_1_color_fk FOREIGN KEY ( colorid )
+        REFERENCES color ( colorid );
+
+ALTER TABLE product_color
+    ADD CONSTRAINT relation_1_product_fk FOREIGN KEY ( productid )
+        REFERENCES product ( productid );
+
+>>>>>>> 9e0f369c729f65643a3ac04b033aa10f24ec0746:cosmetic.sql
 insert into brand values('B01','CHANEL');
 insert into brand values('B02','DIOR');
 insert into brand values('B03','NARS');
 
-#table product : Lipstick DIOR 'B02'
+
 insert into product values('DL01','Rouge Dior','https://www.dior.com/beauty/version-5.1610097138806/resize-image/ep/460/498/90/0/%252FY0172009%252FV007%252FY0172009_C017500999_E01_GHC.jpg?imwidth=460',
                             1750.00,'20/02/1997','Rouge Dior is the Dior lipstick with couture colors. True floral lip care, it is enriched with red peony and pomegranate flower extracts of natural origin. Rouge Dior dresses the lips in 75 bold colors with satin, matte, metallic or velvet finishes. Long-wear lipstick that ensures 16 hours of comfort* on the lips.'
                             ,'B02');
@@ -24,7 +73,7 @@ insert into product values('DL06','Dior Addict Lacquer Stick','https://www.dior.
                             ,'B02');
                             
 
-#table product : Blush DIOR 'B02'
+
 insert into product values('DB01','Dior Forever Natural Bronze','https://www.dior.com/beauty/version-5.1610097138806/resize-image/ep/870/580/90/0/%252FY0216000%252FV002%252FY0216000_C021600001_E01_ZHC.jpg?imwidth=870',
                             1700.00,'12/05/2020','Dior Forever Natural Bronze powder bronzer recreates in a single step the sun caress on the skin for a complexion that is radiant with vitality.'
                             ,'B02');
@@ -45,7 +94,7 @@ insert into product values('DB06','DIORSKIN MINERAL NUDE BRONZE','https://www.di
                             ,'B02');
                             
 
-#table product : Eyeshadows DIOR 'B02'
+
 insert into product values('DE01','5 COULEURS COUTURE','https://www.dior.com/beauty/version-5.1610097138806/resize-image/ep/870/580/90/0/%252FY0139000%252FV003%252FY0139000_C013900279_E01_ZHC.jpg?imwidth=870',
                             1700.00,'10/04/2000','The iconic 5 Couleurs eyeshadow palette has been reinvented to become 5 Couleurs Couture.Each eyeshadow palette � Denim, Black Bow, Rouge Trafalgar and Mitzah � corresponds to an iconic piece of the Dior wardrobe, offering a nuanced array of intense shades that are easy to use and combine.'
                             ,'B02');
@@ -66,7 +115,7 @@ insert into product values('DE06','DIORSHOW FUSION MONO MATTE','https://www.dior
                             ,'B02');
 
 
-#table product : Lipstick CHANEL 'B01'
+
 insert into product values('CL01','Rouge coco bloom','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-coco-bloom-hydrating-plumping-intense-shine-lip-colour-110-chance-0-11oz#packshot-default-172110-8835357736990.jpg',
                             1450.00,'10/06/2016','And a new luster was born: intense, plump, and long-lasting, ROUGE COCO BLOOM is the lipstick that exudes a luster of beauty.CHANEL Research has created the first lip color to replenish moisture and plumpness. And long-lasting with a striking luster In a patented product formula.'
                             ,'B01');
@@ -88,7 +137,7 @@ insert into product values('CL06','Le rouge crayon de couleur','https://www.chan
 
                             
                             
-#table product : Blush CHANEL 'B01'
+
 insert into product values('CB01','Palette essentielle','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/palette-essentielle-conceal-highlight-color-150-beige-clair-0-31oz#packshot-default-149150-8800829931550.jpg',
                             2550.00,'23/06/2020','A palette for the face with 3 values ??in one. Both the value of concealing, highlighting and coloring for a bright and glowing complexion. A face palette with a variety of features. Along with a design inspired by the "Coco Crush" jewelry collection that includes blush, concealer and highlighter. For a bright and glowing result that lasts all day'
                             ,'B01');
@@ -110,7 +159,7 @@ insert into product values('CB06','Les tissages de chanel','https://www.chanel.c
 
                             
 
-#table product : Eyeshadows CHANEL 'B01'
+
 insert into product values('CE01','Les 4 ombres','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-4-ombres-makeup-collection-la-fleur-et-l-eau-356-au-fil-des-fleurs-2g-packshot-default-164356-8823731257374.jpg',
                             2550.00,'18/11/2019','A new two-tone palette inspired by flowers. The river and the coming of spring reflect the beauty and simplicity of nature. This four-tone, two-tone eyeshadow palette is decorated with camellia motifs with a wide range of satin and sparkling effects. This formula offers a soft texture designed for ease of use. A beautiful, consistent color.'
                             ,'B01');
@@ -132,7 +181,7 @@ insert into product values('CE06','Les beiges eyeshadow palette','https://www.ch
 
                             
                             
-#table product : Lipstick NARS 'B03'
+
 insert into product values('NL01','Nars Lipstick','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw237cad07/hi-res/0607845029441.jpg?sw=856&sh=750&sm=fit',
                             850.00,'21/06/2019','A new lineup of lipstick in matte, satin, and sheer finishes. innovative new formula delivers instant color vibrancy and conditions lips for a hydrated feel.'
                             ,'B03');
@@ -154,7 +203,7 @@ insert into product values('NL06','Air matte lip color','https://www.narscosmeti
 
                             
                             
-#table product : Blush NARS 'B03'
+
 insert into product values('NB01','Nars Blush','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwf7aa4788/hi-res/0607845040132.jpg?sw=856&sh=750&sm=fit',
                             1000.00,'17/02/2019','The ultimate authority in blush, nars offers the industrys most iconic shades for cheeks.'
                             ,'B03');
@@ -195,7 +244,7 @@ insert into product values('NE06','Powerchrome loose eye pigment','https://www.n
                             880.00,'12/06/2020','A Loose, densely packed metallic eye pigment that glides onto lids with intense payoff in a foil-like effect.'
                             ,'B03');
 
-#table color
+
 insert into color values('C01','Red');
 insert into color values('C02','Pink');                            
 insert into color values('C03','Orange');
@@ -208,7 +257,7 @@ insert into color values('C09','Blue');
 insert into color values('C10','Multi');
  
 
-#table product_color : Lipstick DIOR color 4
+
 insert into product_color values('C02','DL01');
 insert into product_color values('C01','DL01');
 insert into product_color values('C07','DL01');
@@ -235,7 +284,7 @@ insert into product_color values('C05','DL06');
 insert into product_color values('C07','DL06');
 
 
-#table product_color : Lipstick CHENEL color 4
+
 insert into product_color values('C01','CL01');
 insert into product_color values('C05','CL01');
 insert into product_color values('C07','CL01');
@@ -262,7 +311,7 @@ insert into product_color values('C03','CL06');
 insert into product_color values('C04','CL06');
 
 
-#table product_color : Lipstick NARS color 4
+
 insert into product_color values('C01','NL01');
 insert into product_color values('C02','NL01');
 insert into product_color values('C03','NL01');
@@ -289,7 +338,7 @@ insert into product_color values('C09','NL06');
 insert into product_color values('C10','NL06');
 
 
-#table product_color : Blush CHENEL color 4
+
 insert into product_color values('C01','CB01');
 insert into product_color values('C03','CB01');
 insert into product_color values('C04','CB01');
@@ -316,7 +365,7 @@ insert into product_color values('C08','CB06');
 insert into product_color values('C10','CB06');
 
 
-#table product_color : Blush DIOR color 4
+
 insert into product_color values('C01','DB01');
 insert into product_color values('C03','DB01');
 insert into product_color values('C04','DB01');
@@ -343,7 +392,7 @@ insert into product_color values('C07','DB06');
 insert into product_color values('C08','DB06');
 
 
-#table product_color : Blush NARS color 4
+
 insert into product_color values('C01','NB01');
 insert into product_color values('C02','NB01');
 insert into product_color values('C03','NB01');
@@ -370,7 +419,7 @@ insert into product_color values('C09','NB06');
 insert into product_color values('C10','NB06');
 
 
-#table product_color : Eyeshadows DIOR color 4
+
 insert into product_color values('C01','DE01');
 insert into product_color values('C03','DE01');
 insert into product_color values('C05','DE01');
@@ -397,7 +446,7 @@ insert into product_color values('C05','DE06');
 insert into product_color values('C07','DE06');
 
 
-#table product_color : Eyeshadows CHENEL color 4
+
 insert into product_color values('C02','CE01');
 insert into product_color values('C04','CE01');
 insert into product_color values('C05','CE01');
@@ -425,7 +474,7 @@ insert into product_color values('C10','CE06');
 
 
 
-#table product_color : Eyeshadows NARS color 4
+
 insert into product_color values('C01','NE01');
 insert into product_color values('C03','NE01');
 insert into product_color values('C05','NE01');
@@ -452,15 +501,8 @@ insert into product_color values('C09','NE06');
 insert into product_color values('C10','NE06');
 
 
-#grant role to members (DB079, DB083)
-create role r_cosmetic;
-grant select, update on product to r_cosmetic;
-grant select, update on brand to r_cosmetic;
-grant select, update on color to r_cosmetic;
-grant select, update on product_color to r_cosmetic;
 
-grant r_cosmetic to DB079;
-grant r_cosmetic to DB083;
+
 
 
 
