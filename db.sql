@@ -1,9 +1,9 @@
---table brand
+#table brand
 insert into brand values('B01','CHANEL');
 insert into brand values('B02','DIOR');
 insert into brand values('B03','NARS');
 
---table product : Lipstick DIOR 'B02'
+#table product : Lipstick DIOR 'B02'
 insert into product values('DL01','Rouge Dior','https://www.dior.com/beauty/version-5.1610097138806/resize-image/ep/460/498/90/0/%252FY0172009%252FV007%252FY0172009_C017500999_E01_GHC.jpg?imwidth=460',
                             1750.00,'20/02/1997','Rouge Dior is the Dior lipstick with couture colors. True floral lip care, it is enriched with red peony and pomegranate flower extracts of natural origin. Rouge Dior dresses the lips in 75 bold colors with satin, matte, metallic or velvet finishes. Long-wear lipstick that ensures 16 hours of comfort* on the lips.'
                             ,'B02');
@@ -24,7 +24,7 @@ insert into product values('DL06','Dior Addict Lacquer Stick','https://www.dior.
                             ,'B02');
                             
 
---table product : Blush DIOR 'B02'
+#table product : Blush DIOR 'B02'
 insert into product values('DB01','Dior Forever Natural Bronze','https://www.dior.com/beauty/version-5.1610097138806/resize-image/ep/870/580/90/0/%252FY0216000%252FV002%252FY0216000_C021600001_E01_ZHC.jpg?imwidth=870',
                             1700.00,'12/05/2020','Dior Forever Natural Bronze powder bronzer recreates in a single step the sun caress on the skin for a complexion that is radiant with vitality.'
                             ,'B02');
@@ -45,9 +45,9 @@ insert into product values('DB06','DIORSKIN MINERAL NUDE BRONZE','https://www.di
                             ,'B02');
                             
 
---table product : Eyeshadows DIOR 'B02'
+#table product : Eyeshadows DIOR 'B02'
 insert into product values('DE01','5 COULEURS COUTURE','https://www.dior.com/beauty/version-5.1610097138806/resize-image/ep/870/580/90/0/%252FY0139000%252FV003%252FY0139000_C013900279_E01_ZHC.jpg?imwidth=870',
-                            1700.00,'10/04/2000','The iconic 5 Couleurs eyeshadow palette has been reinvented to become 5 Couleurs Couture.Each eyeshadow palette – Denim, Black Bow, Rouge Trafalgar and Mitzah – corresponds to an iconic piece of the Dior wardrobe, offering a nuanced array of intense shades that are easy to use and combine.'
+                            1700.00,'10/04/2000','The iconic 5 Couleurs eyeshadow palette has been reinvented to become 5 Couleurs Couture.Each eyeshadow palette ï¿½ Denim, Black Bow, Rouge Trafalgar and Mitzah ï¿½ corresponds to an iconic piece of the Dior wardrobe, offering a nuanced array of intense shades that are easy to use and combine.'
                             ,'B02');
 insert into product values('DE02','5 COULEURS COUTURE - SUMMER DUNE','https://www.dior.com/beauty/version-5.1610097138806/resize-image/ep/870/580/90/0/%252FY0218006%252FV001%252FY0218006_C021800699_E01_ZHC.jpg?imwidth=870',
                             1800.00,'16/06/2016','From intense bronze tones to sparkling gold, the eyeshadow shades explore a new approach to color that plays with the warm and golden shimmer of the sun, for natural and luminous eye makeup.'
@@ -66,73 +66,73 @@ insert into product values('DE06','DIORSHOW FUSION MONO MATTE','https://www.dior
                             ,'B02');
 
 
---table product : Lipstick CHANEL 'B01'
-insert into product values('CL01','Rouge coco bloom','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-coco-bloom-hydrating-plumping-intense-shine-lip-colour-110-chance-0-11oz--packshot-default-172110-8835357736990.jpg',
+#table product : Lipstick CHANEL 'B01'
+insert into product values('CL01','Rouge coco bloom','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-coco-bloom-hydrating-plumping-intense-shine-lip-colour-110-chance-0-11oz#packshot-default-172110-8835357736990.jpg',
                             1450.00,'10/06/2016','And a new luster was born: intense, plump, and long-lasting, ROUGE COCO BLOOM is the lipstick that exudes a luster of beauty.CHANEL Research has created the first lip color to replenish moisture and plumpness. And long-lasting with a striking luster In a patented product formula.'
                             ,'B01');
-insert into product values('CL02','Rouge coco','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-coco-ultra-hydrating-lip-colour-434-mademoiselle-0-12oz--packshot-default-172434-8804334895134.jpg',
+insert into product values('CL02','Rouge coco','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-coco-ultra-hydrating-lip-colour-434-mademoiselle-0-12oz#packshot-default-172434-8804334895134.jpg',
                             1450.00,'29/02/2020','ROUGE COCO, the signature lipstick of CHANEL. Revamped to provide smoothness, comfort, radiance and all-day hydration. Inspired by Mademoiselle Chanel s close friends group, who briefly call her Coco, ROUGE COCOs 24 new shades include Arthur, Adrienne, Roussy, Dimitri, and more.'
                             ,'B01');
-insert into product values('CL03','Rouge allure ink','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-allure-ink-matte-liquid-lip-colour-222-signature-0-2fl-oz--packshot-default-165222-8819745095710.jpg',
+insert into product values('CL03','Rouge allure ink','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-allure-ink-matte-liquid-lip-colour-222-signature-0-2fl-oz#packshot-default-165222-8819745095710.jpg',
                             1450.00,'14/02/2019','ROUGE ALLURE INK matte liquid lipstick For colors that stand out and shine With light and dark texture Immediately absorbed into the lips for a light touch. For long-lasting color results (over 8 hours *), an alluring challenge that doesnt look out of sight.'
                             ,'B01');
 insert into product values('CL04','Rouge coco stylo','https://www.chanel.com/images//t_one//w_0.45,h_0.45,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-coco-stylo-complete-care-lipshine-226-calligraphie-2g-packshot-default-170226-8833980301342.jpg',
                             1450.00,'22/03/2019','ROUGE COCO STYLO Lipstick in a pen that gives your lips your style. Ready to be outstanding in one step A travel-sized lipstick that goes wherever you go. With ingredients that combine the vivid colors of lipstick Radiance The shine of a lip gloss And the lightness of lip balm with ROUGE COCO STYLO, the new look of makeup'
                             ,'B01');
-insert into product values('CL05','Rouge allure','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-allure-luminous-intense-lip-colour-99-pirate-0-12oz--packshot-default-160990-8800032784414.jpg',
+insert into product values('CL05','Rouge allure','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/rouge-allure-luminous-intense-lip-colour-99-pirate-0-12oz#packshot-default-160990-8800032784414.jpg',
                             1450.00,'10/06/2020','Lipstick that brings vitality and luminosity. With a very light texture Absorbs quickly Like a second skin A wide variety of bold shades For a style that stands out and defies. The result A deep, luminous make-up with a satin finish. Provides flawless color even for the first time.'
                             ,'B01');
-insert into product values('CL06','Le rouge crayon de couleur','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/le-rouge-crayon-de-couleur-jumbo-longwear-lip-crayon-n-2-rose-violine-0-04oz--packshot-default-187237-8800038912030.jpg',
+insert into product values('CL06','Le rouge crayon de couleur','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/le-rouge-crayon-de-couleur-jumbo-longwear-lip-crayon-n-2-rose-violine-0-04oz#packshot-default-187237-8800038912030.jpg',
                             1450.00,'21/06/2019','The LE ROUGE CRAYON DE COULEUR lipstick by CHANEL makes it easy to apply. With the form of an extra large that is easy to carry. Ready to carry with you anywhere For you to enjoy and color every time With the tip of the lipstick holder that can be easily adjusted up and down To reveal vibrant colors Satin texture And vivid colors With a long-lasting, lightweight formula that lasts more than 4 hours * after the first application. Let the art of color become a fun area.'
                             ,'B01');
 
                             
                             
---table product : Blush CHANEL 'B01'
-insert into product values('CB01','Palette essentielle','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/palette-essentielle-conceal-highlight-color-150-beige-clair-0-31oz--packshot-default-149150-8800829931550.jpg',
+#table product : Blush CHANEL 'B01'
+insert into product values('CB01','Palette essentielle','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/palette-essentielle-conceal-highlight-color-150-beige-clair-0-31oz#packshot-default-149150-8800829931550.jpg',
                             2550.00,'23/06/2020','A palette for the face with 3 values ??in one. Both the value of concealing, highlighting and coloring for a bright and glowing complexion. A face palette with a variety of features. Along with a design inspired by the "Coco Crush" jewelry collection that includes blush, concealer and highlighter. For a bright and glowing result that lasts all day'
                             ,'B01');
-insert into product values('CB02','Palette essentielle été','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/palette-essentielle-ete-highlight-color-190-eclat-solaire-0-31oz--packshot-default-149190-8835355574302.jpg',
+insert into product values('CB02','Palette essentielle ï¿½tï¿½','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/palette-essentielle-ete-highlight-color-190-eclat-solaire-0-31oz#packshot-default-149190-8835355574302.jpg',
                             2550.00,'23/06/2020','PALETTE ESSENTIELLE HIGHLIGHT CREAM FOR SUMMER. Two in one value of a cream highlighter for the face and to add color with just the tip of the brush. The perfect match of three colors for easy makeup application at any time of the day. Both highlighter creams that fill light-prone areas of the face. With a bright red to highlight the cheekbones or as a lip tint. So your skin looks vibrant again and your face looks radiant. Sparkling, brimming with beauty'
                             ,'B01');
-insert into product values('CB03','Joues contraste','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/joues-contraste-powder-blush-170-rose-glacier-0-12oz--packshot-default-168170-8808320368670.jpg',
+insert into product values('CB03','Joues contraste','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/joues-contraste-powder-blush-170-rose-glacier-0-12oz#packshot-default-168170-8808320368670.jpg',
                             2000.00,'15/05/2019','This blush that will become an indispensable item will brighten up your complexion. Helps to contour the face with a healthy glow effect. This color-and-luminous blush accentuates the cheekbones and makes the face look brighter. Its fine powdery texture makes it easy to apply on the skin. The cartridge is designed to be easily carried anywhere, so you can easily add color on your face anytime.'
                             ,'B01');
-insert into product values('CB04','Perles de lumière','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/perles-de-lumiere-illuminating-blush-powder-0-28oz--packshot-default-151547-8838252265502.jpg',
-                            2700.00,'01/08/2018','An exclusive creations, PERLES DE LUMIÈRE is a pearl-inspired blush of Gabriel. CHANEL is worn to brighten and brighten your skin. This fine pearly-patterned powder adds a soft, iridescent light to the spots where light strikes the face.'
+insert into product values('CB04','Perles de lumiï¿½re','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/perles-de-lumiere-illuminating-blush-powder-0-28oz#packshot-default-151547-8838252265502.jpg',
+                            2700.00,'01/08/2018','An exclusive creations, PERLES DE LUMIï¿½RE is a pearl-inspired blush of Gabriel. CHANEL is worn to brighten and brighten your skin. This fine pearly-patterned powder adds a soft, iridescent light to the spots where light strikes the face.'
                             ,'B01');
-insert into product values('CB05','Fleurs de printemps','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/fleurs-de-printemps-blush-and-highlighter-duo-0-28oz--packshot-default-151560-8831690833950.jpg',
+insert into product values('CB05','Fleurs de printemps','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/fleurs-de-printemps-blush-and-highlighter-duo-0-28oz#packshot-default-151560-8831690833950.jpg',
                             2700.00,'12/06/2017','Exclusive Creations, FLEURS DE PRINTEMPS, a featured product in the Spring-Summer 2021 duo collection. Contains a radiant coral blush and a satin rosy peach highlighter. The luster of silk, the seductive and luxurious that CHANEL has created, gives a sparkle and sparkle, revealing a woman of happiness and joy.'
                             ,'B01');
-insert into product values('CB06','Les tissages de chanel','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-tissages-de-chanel-blush-duo-tweed-effect-10-tweed-pink-0-19oz--packshot-default-169310-8833980891166.jpg',
+insert into product values('CB06','Les tissages de chanel','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-tissages-de-chanel-blush-duo-tweed-effect-10-tweed-pink-0-19oz#packshot-default-169310-8833980891166.jpg',
                             2100.00,'10/07/2019','A two-tone blush that combines the elegance, simplicity and durability of a CHANEL tweed jacket. The tweed fabric, at the heart and of the CHANEL brands legend, has become an indispensable sparkling make-up. Weave subtle silver and gold tones into a blush color. Makes cheeks shine naturally healthy throughout the day.'
                             ,'B01');
 
                             
 
---table product : Eyeshadows CHANEL 'B01'
+#table product : Eyeshadows CHANEL 'B01'
 insert into product values('CE01','Les 4 ombres','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-4-ombres-makeup-collection-la-fleur-et-l-eau-356-au-fil-des-fleurs-2g-packshot-default-164356-8823731257374.jpg',
                             2550.00,'18/11/2019','A new two-tone palette inspired by flowers. The river and the coming of spring reflect the beauty and simplicity of nature. This four-tone, two-tone eyeshadow palette is decorated with camellia motifs with a wide range of satin and sparkling effects. This formula offers a soft texture designed for ease of use. A beautiful, consistent color.'
                             ,'B01');
-insert into product values('CE02','Les 4 ombres','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-4-ombres-multi-effect-quadra-eyeshadow-334-modern-glamour-0-07oz--packshot-default-164334-8819563626526.jpg',
+insert into product values('CE02','Les 4 ombres','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-4-ombres-multi-effect-quadra-eyeshadow-334-modern-glamour-0-07oz#packshot-default-164334-8819563626526.jpg',
                             2450.00,'21/06/2016','Four shades of eyeshadow That provides a modern perspective for creative beauty. The latest recipe adaptation, the team baked gentle and easy to color with more intense colors. The perfect combination of colors Provides a radiant and smooth glow all day long. Makeup shades deliver results such as Matt satin surfaces reflect light and sparkle with metallic'
                             ,'B01');
-insert into product values('CE03','Ombre première top coat','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/ombre-premiere-top-coat-ombre-premiere-top-coat-br-exclusive-creation-limited-edition-327-penombre-2-2g-packshot-default-176327-8818861703198.jpg',
+insert into product values('CE03','Ombre premiï¿½re top coat','https://www.chanel.com/images//t_one//w_0.38,h_0.38,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/ombre-premiere-top-coat-ombre-premiere-top-coat-br-exclusive-creation-limited-edition-327-penombre-2-2g-packshot-default-176327-8818861703198.jpg',
                             1400.00,'16/12/2020','Lucia Pica changes the rules of beauty with LA COLLECTION NOIR ET BLANC DE CHANEL, CHANEL s latest global creative make-up and designer. Introducing endless shades of black and white, Lucia Pica has partnered with Makeup Creation Studio to create a limited edition eyeshadow.'
                             ,'B01');
-insert into product values('CE04','Ombre première','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/ombre-premiere-longwear-powder-eyeshadow-12-rose-synthetique-0-08oz--packshot-default-176012-8800821641246.jpg',
+insert into product values('CE04','Ombre premiï¿½re','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/ombre-premiere-longwear-powder-eyeshadow-12-rose-synthetique-0-08oz#packshot-default-176012-8800821641246.jpg',
                             1380.00,'11/12/2015','A soft, easy-to-spread powder texture that is long-lasting and offers a bold color. With a palette that offers shimmering shades with all 3 types of textures: matte, satin and metallic'
                             ,'B01');
-insert into product values('CE05','Les 4 ombres','https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-4-ombres-exclusive-creation-in-legerete-et-experience-legerete-et-experience-0-07oz--packshot-default-148797-8835359506462.jpg',
+insert into product values('CE05','Les 4 ombres','https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-4-ombres-exclusive-creation-in-legerete-et-experience-legerete-et-experience-0-07oz#packshot-default-148797-8835359506462.jpg',
                             2500.00,'11/12/2015','Four eyeshadow shades with the ultimate in modernity. The superb formula combines a gentle texture and makes it easy to apply. The result of full color, evenly, looks brilliant and lasts all day long.'
                             ,'B01');
-insert into product values('CE06','Les beiges eyeshadow palette','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-beiges-healthy-glow-natural-eyeshadow-palette-warm-0-16oz--packshot-default-184189-8826684440606.jpg',
+insert into product values('CE06','Les beiges eyeshadow palette','https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/les-beiges-healthy-glow-natural-eyeshadow-palette-warm-0-16oz#packshot-default-184189-8826684440606.jpg',
                             2800.00,'18/11/2019','LES BEIGES HEALTHY GLOW NATURAL EYESHADOW PALETTE LES BEIGES HEALTHY GLOW NATURAL EYESHADOW PALETTE Reveal lustrous, refreshed and well-rested eyes at any time of the day with 5 natural-looking and easy-to-apply shades. All in one The LES BEIGES HEALTHY GLOW NATURAL EYESHADOW PALETTE can be used as an eyeshadow, base, eyeliner or eyeshadow palette. No matter what form it is used Silk-like soft texture makes it easy to apply. In the iconic case of LES BEIGES with a large hand mirror and 3 paint tools.'
                             ,'B01');
 
                             
                             
---table product : Lipstick NARS 'B03'
+#table product : Lipstick NARS 'B03'
 insert into product values('NL01','Nars Lipstick','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw237cad07/hi-res/0607845029441.jpg?sw=856&sh=750&sm=fit',
                             850.00,'21/06/2019','A new lineup of lipstick in matte, satin, and sheer finishes. innovative new formula delivers instant color vibrancy and conditions lips for a hydrated feel.'
                             ,'B03');
@@ -154,7 +154,7 @@ insert into product values('NL06','Air matte lip color','https://www.narscosmeti
 
                             
                             
---table product : Blush NARS 'B03'
+#table product : Blush NARS 'B03'
 insert into product values('NB01','Nars Blush','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwf7aa4788/hi-res/0607845040132.jpg?sw=856&sh=750&sm=fit',
                             1000.00,'17/02/2019','The ultimate authority in blush, nars offers the industrys most iconic shades for cheeks.'
                             ,'B03');
@@ -162,7 +162,7 @@ insert into product values('NB02','Air matte blush','https://www.narscosmetics.c
                             1000.00,'14/04/2021','A unique mousse blush that transforms into a velvety powder for a weightless, cloud-like wash of cheek color.'
                             ,'B03');
 insert into product values('NB03','The multiple','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dwade78599/hi-res/0607845015178.jpg?sw=856&sh=750&sm=fit',
-                            1250.00,'19/09/2019','Franois nars’ iconic innovation, it’s the original multi-purpose stick for eyes, cheeks, lips and body. '
+                            1250.00,'19/09/2019','Franois narsï¿½ iconic innovation, itï¿½s the original multi-purpose stick for eyes, cheeks, lips and body. '
                             ,'B03');
 insert into product values('NB04','Liquid blush','https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw70d0e28a/hi-res/0607845051558.jpg?sw=856&sh=750&sm=fit',
                             1000.00,'18/11/2020','A rush of natural-looking color in a new, liquid blush formula that builds easily, blends effortlessly.'
@@ -195,7 +195,7 @@ insert into product values('NE06','Powerchrome loose eye pigment','https://www.n
                             880.00,'12/06/2020','A Loose, densely packed metallic eye pigment that glides onto lids with intense payoff in a foil-like effect.'
                             ,'B03');
 
---table color
+#table color
 insert into color values('C01','Red');
 insert into color values('C02','Pink');                            
 insert into color values('C03','Orange');
@@ -208,7 +208,7 @@ insert into color values('C09','Blue');
 insert into color values('C10','Multi');
  
 
---table product_color : Lipstick DIOR color 4
+#table product_color : Lipstick DIOR color 4
 insert into product_color values('C02','DL01');
 insert into product_color values('C01','DL01');
 insert into product_color values('C07','DL01');
@@ -235,7 +235,7 @@ insert into product_color values('C05','DL06');
 insert into product_color values('C07','DL06');
 
 
---table product_color : Lipstick CHENEL color 4
+#table product_color : Lipstick CHENEL color 4
 insert into product_color values('C01','CL01');
 insert into product_color values('C05','CL01');
 insert into product_color values('C07','CL01');
@@ -262,7 +262,7 @@ insert into product_color values('C03','CL06');
 insert into product_color values('C04','CL06');
 
 
---table product_color : Lipstick NARS color 4
+#table product_color : Lipstick NARS color 4
 insert into product_color values('C01','NL01');
 insert into product_color values('C02','NL01');
 insert into product_color values('C03','NL01');
@@ -289,7 +289,7 @@ insert into product_color values('C09','NL06');
 insert into product_color values('C10','NL06');
 
 
---table product_color : Blush CHENEL color 4
+#table product_color : Blush CHENEL color 4
 insert into product_color values('C01','CB01');
 insert into product_color values('C03','CB01');
 insert into product_color values('C04','CB01');
@@ -316,7 +316,7 @@ insert into product_color values('C08','CB06');
 insert into product_color values('C10','CB06');
 
 
---table product_color : Blush DIOR color 4
+#table product_color : Blush DIOR color 4
 insert into product_color values('C01','DB01');
 insert into product_color values('C03','DB01');
 insert into product_color values('C04','DB01');
@@ -343,7 +343,7 @@ insert into product_color values('C07','DB06');
 insert into product_color values('C08','DB06');
 
 
---table product_color : Blush NARS color 4
+#table product_color : Blush NARS color 4
 insert into product_color values('C01','NB01');
 insert into product_color values('C02','NB01');
 insert into product_color values('C03','NB01');
@@ -370,7 +370,7 @@ insert into product_color values('C09','NB06');
 insert into product_color values('C10','NB06');
 
 
---table product_color : Eyeshadows DIOR color 4
+#table product_color : Eyeshadows DIOR color 4
 insert into product_color values('C01','DE01');
 insert into product_color values('C03','DE01');
 insert into product_color values('C05','DE01');
@@ -397,7 +397,7 @@ insert into product_color values('C05','DE06');
 insert into product_color values('C07','DE06');
 
 
---table product_color : Eyeshadows CHENEL color 4
+#table product_color : Eyeshadows CHENEL color 4
 insert into product_color values('C02','CE01');
 insert into product_color values('C04','CE01');
 insert into product_color values('C05','CE01');
@@ -425,7 +425,7 @@ insert into product_color values('C10','CE06');
 
 
 
---table product_color : Eyeshadows NARS color 4
+#table product_color : Eyeshadows NARS color 4
 insert into product_color values('C01','NE01');
 insert into product_color values('C03','NE01');
 insert into product_color values('C05','NE01');
@@ -452,7 +452,7 @@ insert into product_color values('C09','NE06');
 insert into product_color values('C10','NE06');
 
 
---grant role to members (DB079, DB083)
+#grant role to members (DB079, DB083)
 create role r_cosmetic;
 grant select, update on product to r_cosmetic;
 grant select, update on brand to r_cosmetic;
