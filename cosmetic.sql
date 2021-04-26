@@ -1,3 +1,48 @@
+CREATE TABLE brand (
+    brandid    VARCHAR2(10) NOT NULL,
+    brandname  VARCHAR2(50)
+);
+
+ALTER TABLE brand ADD CONSTRAINT brand_pk PRIMARY KEY ( brandid );
+
+CREATE TABLE color (
+    colorid    VARCHAR2(10) NOT NULL,
+    colorname  VARCHAR2(50)
+);
+
+ALTER TABLE color ADD CONSTRAINT color_pk PRIMARY KEY ( colorid );
+
+CREATE TABLE product (
+    productid      VARCHAR2(10) NOT NULL,
+    productname    VARCHAR2(100),
+    productimage   VARCHAR2(2000),
+    price          NUMBER(7, 2),
+    launch_date    DATE,
+    description    VARCHAR2(4000),
+    brand_brandid  VARCHAR2(10) NOT NULL
+);
+
+ALTER TABLE product ADD CONSTRAINT product_pk PRIMARY KEY ( productid );
+
+CREATE TABLE product_color (
+    colorid    VARCHAR2(10) NOT NULL,
+    productid  VARCHAR2(10) NOT NULL
+);
+
+ALTER TABLE product_color ADD CONSTRAINT relation_1_pk PRIMARY KEY ( colorid,
+                                                                     productid );
+
+ALTER TABLE product
+    ADD CONSTRAINT product_brand_fk FOREIGN KEY ( brand_brandid )
+        REFERENCES brand ( brandid );
+
+ALTER TABLE product_color
+    ADD CONSTRAINT relation_1_color_fk FOREIGN KEY ( colorid )
+        REFERENCES color ( colorid );
+
+ALTER TABLE product_color
+    ADD CONSTRAINT relation_1_product_fk FOREIGN KEY ( productid )
+        REFERENCES product ( productid );
 --table brand
 insert into brand values('B01','CHANEL');
 insert into brand values('B02','DIOR');
