@@ -1,6 +1,7 @@
 <<<<<<< HEAD:db.sql
 
 =======
+USE_cosmetic:
 CREATE TABLE brand (
     brandid    VARCHAR(10) NOT NULL,
     brandname  VARCHAR(50)
