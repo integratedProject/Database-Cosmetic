@@ -1,0 +1,17 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: powerpuffgirl1234
+    volumes:  
+      - ./data-mysql:/var/lib/mysql
+      - ./cosmetic.sql:/cosmetic.sql
+networks:
+    default:
+        external:
+            name: cosmetic_network      

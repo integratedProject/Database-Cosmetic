@@ -14,5 +14,7 @@
 ## 62130500079 Wanisara Khamracha<br>
 
 ### Complete
-
+- Deploy
+- Config MySQL server on Docker
 ### In progress
+- create user in MySQL client
