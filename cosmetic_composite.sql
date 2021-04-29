@@ -220,27 +220,27 @@ insert into product_color values('C24','CE03');
 
 
 
-insert into product_color values('C14','CL01');
-insert into product_color values('C01','CL01');
-insert into product_color values('C15','CL02');
-insert into product_color values('C16','CL02');
-insert into product_color values('C17','CL02');
-insert into product_color values('C18','CL03');
-insert into product_color values('C19','CL03');
-insert into product_color values('C01','CB01');
-insert into product_color values('C02','CB01');
-insert into product_color values('C03','CB01');
-insert into product_color values('C02','CB02');
-insert into product_color values('C04','CB02');
-insert into product_color values('C05','CB03');
-insert into product_color values('C06','CB03');
-insert into product_color values('C07','CE01');
-insert into product_color values('C08','CE01');
-insert into product_color values('C09','CE02');
-insert into product_color values('C10','CE02');
-insert into product_color values('C11','CE02');
-insert into product_color values('C12','CE03');
-insert into product_color values('C13','CE03');
+insert into product_color values('C14','DL01');
+insert into product_color values('C01','DL01');
+insert into product_color values('C15','DL02');
+insert into product_color values('C16','DL02');
+insert into product_color values('C17','DL02');
+insert into product_color values('C18','DL03');
+insert into product_color values('C19','DL03');
+insert into product_color values('C01','DB01');
+insert into product_color values('C02','DB01');
+insert into product_color values('C03','DB01');
+insert into product_color values('C02','DB02');
+insert into product_color values('C04','DB02');
+insert into product_color values('C05','DB03');
+insert into product_color values('C06','DB03');
+insert into product_color values('C07','DE01');
+insert into product_color values('C08','DE01');
+insert into product_color values('C09','DE02');
+insert into product_color values('C10','DE02');
+insert into product_color values('C11','DE02');
+insert into product_color values('C12','DE03');
+insert into product_color values('C13','DE03');
 
 
 
