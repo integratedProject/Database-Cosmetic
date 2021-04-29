@@ -62,16 +62,7 @@ insert into product values('DL02','Rouge Dior The Refill',
 insert into product values('DL03','Rouge Dior Forever Liquid',
                             1700.00,'1999-03-10','Rouge Dior Forever Liquid is the 1st ultra-pigmented, transfer-proof liquid Dior lipstick, with vibrant, ultra-matte colors that withstand contact. With striking color, the liquid lipstick wont settle into lip lines, fade, budge, or feather, even on fabric and masks.'
                             ,'B02');
-insert into product values('DL04','Rouge Dior Ultra Rouge',
-                            1750.00,'1998-03-11','Always at the cutting edge, Dior challenged its research department to combine the desire for dazzling colour with the need for long-lasting comfort.'
-                            ,'B02');
-insert into product values('DL05','Dior Addict Stellar Shine',
-                            1600.00,'2019-08-07','Dior Addict Stellar Shine is the next-generation lip shine that delivers 8h* of unparalleled shine.** The balm glides on with incredible sensoriality and instantly melts in contact with the lips for shine with sheer, vibrant colour.'
-                            ,'B02');
-insert into product values('DL06','Dior Addict Lacquer Stick',
-                            1650.00,'2016-06-21','Try Dior Addict Lacquer Stick, the new-generation lacquer stick by Dior, as easy to apply as it is to wear. A stick with a "lip fondant" effect that liberates all the colour and shine of a lacquer, plus the comfort of a balm, with 6 hours* of wear and unrivaled texture.'
-                            ,'B02');
-                            
+
 
 
 insert into product values('DB01','Dior Forever Natural Bronze',
@@ -83,16 +74,7 @@ insert into product values('DB02','Rouge Blush',
 insert into product values('DB03','Dior Backstage Rosy Glow',
                             1800.00,'2019-11-28','Rosy Glow universal blush is the Dior makeup artists secret weapon to create the appearance of naturally rosy cheeks, for a fresh effect, as if brightened from the inside.'
                             ,'B02');
-insert into product values('DB04','ROUGE BLUSH - COLOR GAMES',
-                            1850.00,'2021-04-26','The only blush* that gives cheeks intense, ultra-pigmented colour, Rouge Blush powder also offers long-lasting wear. The Rouge Blush Color Games limited edition with a new* limited edition compact motif is available in two new exclusive shades.*'
-                            ,'B02');
-insert into product values('DB05','ROUGE BLUSH - LIMITED EDITION',
-                            2000.00,'1999-09-19','This fall, Rouge Blush is decorated with an exclusive* and fascinating optical illusion motif to highlight cheeks with boldly feminine colour. Rouge Blush is our only blush that gives cheeks intense, ultra-pigmented, long-wearing colour .'
-                            ,'B02');
-insert into product values('DB06','DIORSKIN MINERAL NUDE BRONZE',
-                            1700.00,'2011-11-11','Diorskin Mineral Nude Bronze powder, infused with golden minerals, captures the light and enhances the effects of sun on the skin. It warms the complexion for a unique, natural and luminous effect.'
-                            ,'B02');
-                            
+                          
 
 
 insert into product values('DE01','5 COULEURS COUTURE',
@@ -104,16 +86,6 @@ insert into product values('DE02','5 COULEURS COUTURE - SUMMER DUNE',
 insert into product values('DE03','5 COULEURS DESIGNER',
                             1800.00,'2021-04-26','Born of Backstage expertise, inspired by professional techniques and textures, 5 COULEURS DESIGNER features an easy, 5-step makeup lesson (base, 2 shadows, highlighter and liner) to bring out the eyes with flawless sculpting and colour gradation.'
                             ,'B02');
-insert into product values('DE04','3 COULEURS TRI(O)BLIQUE - LIMITED EDITION',
-                            1700.00,'2021-04-26','Inspired by the Dior Oblique collection, the 3 Couleurs Tri(O)blique eyeshadow palette offers a trio of colours and effects: metallic, sparkly and velvety matte. Highlight your eyes with couture creations!'
-                            ,'B02');
-insert into product values('DE05','DIOR BACKSTAGE - CUSTOM EYE PALETTE',
-                            1650.00,'2021-04-26','Its unique* gel transforms eyeshadow textures into an intense liner. * At Dior.'
-                            ,'B02');
-insert into product values('DE06','DIORSHOW FUSION MONO MATTE',
-                            1650.00,'2012-08-10','A weightless texture that blends into the skin and dresses the eye in velvety colour. In a single step, it creates an even and intense matte finish for a professional makeup effect.'
-                            ,'B02');
-
 
 
 insert into product values('CL01','Rouge coco bloom',
@@ -125,18 +97,8 @@ insert into product values('CL02','Rouge coco',
 insert into product values('CL03','Rouge allure ink',
                             1450.00,'2019-02-14','ROUGE ALLURE INK matte liquid lipstick For colors that stand out and shine With light and dark texture Immediately absorbed into the lips for a light touch. For long-lasting color results (over 8 hours *), an alluring challenge that doesnt look out of sight.'
                             ,'B01');
-insert into product values('CL04','Rouge coco stylo',
-                            1450.00,'2019-03-22','ROUGE COCO STYLO Lipstick in a pen that gives your lips your style. Ready to be outstanding in one step A travel-sized lipstick that goes wherever you go. With ingredients that combine the vivid colors of lipstick Radiance The shine of a lip gloss And the lightness of lip balm with ROUGE COCO STYLO, the new look of makeup'
-                            ,'B01');
-insert into product values('CL05','Rouge allure',
-                            1450.00,'2020-06-10','Lipstick that brings vitality and luminosity. With a very light texture Absorbs quickly Like a second skin A wide variety of bold shades For a style that stands out and defies. The result A deep, luminous make-up with a satin finish. Provides flawless color even for the first time.'
-                            ,'B01');
-insert into product values('CL06','Le rouge crayon de couleur',
-                            1450.00,'2019-06-21','The LE ROUGE CRAYON DE COULEUR lipstick by CHANEL makes it easy to apply. With the form of an extra large that is easy to carry. Ready to carry with you anywhere For you to enjoy and color every time With the tip of the lipstick holder that can be easily adjusted up and down To reveal vibrant colors Satin texture And vivid colors With a long-lasting, lightweight formula that lasts more than 4 hours * after the first application. Let the art of color become a fun area.'
-                            ,'B01');
 
-                            
-                            
+
 
 insert into product values('CB01','Palette essentielle',
                             2550.00,'2020-06-23','A palette for the face with 3 values ??in one. Both the value of concealing, highlighting and coloring for a bright and glowing complexion. A face palette with a variety of features. Along with a design inspired by the "Coco Crush" jewelry collection that includes blush, concealer and highlighter. For a bright and glowing result that lasts all day'
@@ -147,17 +109,7 @@ insert into product values('CB02','Palette essentielle',
 insert into product values('CB03','Joues contraste',
                             2000.00,'2019-05-15','This blush that will become an indispensable item will brighten up your complexion. Helps to contour the face with a healthy glow effect. This color-and-luminous blush accentuates the cheekbones and makes the face look brighter. Its fine powdery texture makes it easy to apply on the skin. The cartridge is designed to be easily carried anywhere, so you can easily add color on your face anytime.'
                             ,'B01');
-insert into product values('CB04','Perles de lumire',
-                            2700.00,'2018-08-01','An exclusive creations, PERLES DE LUMIRE is a pearl-inspired blush of Gabriel. CHANEL is worn to brighten and brighten your skin. This fine pearly-patterned powder adds a soft, iridescent light to the spots where light strikes the face.'
-                            ,'B01');
-insert into product values('CB05','Fleurs de printemps',
-                            2700.00,'2017-06-12','Exclusive Creations, FLEURS DE PRINTEMPS, a featured product in the Spring-Summer 2021 duo collection. Contains a radiant coral blush and a satin rosy peach highlighter. The luster of silk, the seductive and luxurious that CHANEL has created, gives a sparkle and sparkle, revealing a woman of happiness and joy.'
-                            ,'B01');
-insert into product values('CB06','Les tissages de chanel',
-                            2100.00,'2019-07-10','A two-tone blush that combines the elegance, simplicity and durability of a CHANEL tweed jacket. The tweed fabric, at the heart and of the CHANEL brands legend, has become an indispensable sparkling make-up. Weave subtle silver and gold tones into a blush color. Makes cheeks shine naturally healthy throughout the day.'
-                            ,'B01');
 
-                            
 
 
 insert into product values('CE01','Les 4 ombres',
@@ -169,16 +121,6 @@ insert into product values('CE02','Les 4 ombres',
 insert into product values('CE03','Ombre premiere top coat',
                             1400.00,'2020-12-16','Lucia Pica changes the rules of beauty with LA COLLECTION NOIR ET BLANC DE CHANEL, CHANEL s latest global creative make-up and designer. Introducing endless shades of black and white, Lucia Pica has partnered with Makeup Creation Studio to create a limited edition eyeshadow.'
                             ,'B01');
-insert into product values('CE04','Ombre premiere',
-                            1380.00,'2015-12-11','A soft, easy-to-spread powder texture that is long-lasting and offers a bold color. With a palette that offers shimmering shades with all 3 types of textures: matte, satin and metallic'
-                            ,'B01');
-insert into product values('CE05','Les 4 ombres',
-                            2500.00,'2015-12-11','Four eyeshadow shades with the ultimate in modernity. The superb formula combines a gentle texture and makes it easy to apply. The result of full color, evenly, looks brilliant and lasts all day long.'
-                            ,'B01');
-insert into product values('CE06','Les beiges eyeshadow palette',
-                            2800.00,'2019-11-18','LES BEIGES HEALTHY GLOW NATURAL EYESHADOW PALETTE LES BEIGES HEALTHY GLOW NATURAL EYESHADOW PALETTE Reveal lustrous, refreshed and well-rested eyes at any time of the day with 5 natural-looking and easy-to-apply shades. All in one The LES BEIGES HEALTHY GLOW NATURAL EYESHADOW PALETTE can be used as an eyeshadow, base, eyeliner or eyeshadow palette. No matter what form it is used Silk-like soft texture makes it easy to apply. In the iconic case of LES BEIGES with a large hand mirror and 3 paint tools.'
-                            ,'B01');
-
                             
                             
 
@@ -191,17 +133,7 @@ insert into product values('NL02','The iconic lip bundle',
 insert into product values('NL03','Audacious lipstick',
                             900.00,'2020-04-02','Lipstick so shamelessly seductive in touch and texture the sensation is audacious. glides on like satin with single-stroke coverage in a spectrum of shades.'
                             ,'B03');
-insert into product values('NL04','Audacious sheer matte lipstick',
-                            1100.00,'2020-04-03','A limited edition matte lipstick featuring medium-sheer coverage and a soft-focus finish.'
-                            ,'B03');
-insert into product values('NL05','Audacious lipstick',
-                            1100.00,'2020-04-03','Four limited edition shades of our most luxurious lipstick formula. provides bold, single-stroke color in just one swipe.'
-                            ,'B03');
-insert into product values('NL06','Air matte lip color',
-                            850.00,'2019-06-21',' Four limited edition shades of our most luxurious lipstick formula. provides bold, single-stroke color in just one swipe.'
-                            ,'B03');
 
-                            
                             
 
 insert into product values('NB01','Nars Blush',
@@ -212,15 +144,6 @@ insert into product values('NB02','Air matte blush',
                             ,'B03');
 insert into product values('NB03','The multiple',
                             1100.00,'2019-09-19','Franois nars iconic innovation, its the original multi-purpose stick for eyes, cheeks, lips and body. '
-                            ,'B03');
-insert into product values('NB04','Liquid blush',
-                            950.00,'2020-11-18','A rush of natural-looking color in a new, liquid blush formula that builds easily, blends effortlessly.'
-                            ,'B03');
-insert into product values('NB05','The air matte lip & cheek bundle',
-                            1500.00,'2021-04-04','The bestsellers you crave. Get them together and save. Dare to air with 15% off a custom lip and cheek duo. $56 value.'
-                            ,'B03');
-insert into product values('NB06','Uninhibited blush duo',
-                            1400.00,'2020-06-04','Unveil your ultimate glow with an oversized blush palette featuring bestsellers Deep Throat, a soft pink with golden sheen, and Tempted, a shimmering beige. Superfine, micronized powder pigments ensure an irresistibly silky application while sensual shades flatter with a soft-focus finish. All passion. No limits.'
                             ,'B03');
 
                             
@@ -234,270 +157,116 @@ insert into product values('NE02','Uninhibited eyeshadow palette',
 insert into product values('NE03','The orgasm bundle',
                             2500.00,'2021-01-01','The bestsellers you crave. Get them together and save. Experience the thrill with 15% off a custom Orgasm trio. $94 value.'
                             ,'B03');
-insert into product values('NE04','ST germain des prs eyeshadow palette',
-                            1550.00,'2020-05-15','A limited edition eyeshadow palette featuring six warm, neutral shades in matte, satin, and shimmer finishes. '
-                            ,'B03');
-insert into product values('NE05','Euphoria face palette',
-                            1100.00,'2019-12-29','A limited-edition palette featuring eight eyeshadows and three glistening shades of highlighter.'
-                            ,'B03');
-insert into product values('NE06','Powerchrome loose eye pigment',
-                            1000.00,'2020-06-12','A Loose, densely packed metallic eye pigment that glides onto lids with intense payoff in a foil-like effect.'
-                            ,'B03');
-
-
-insert into color values('C01','Red');
-insert into color values('C02','Pink');                            
-insert into color values('C03','Orange');
-insert into color values('C04','Nude');
-insert into color values('C05','Brown');
-insert into color values('C06','Berry');
-insert into color values('C07','Peach');
-insert into color values('C08','Purple');
-insert into color values('C09','Blue');
-insert into color values('C10','Multi');
- 
-
-
-insert into product_color values('C02','DL01');
-insert into product_color values('C01','DL01');
-insert into product_color values('C07','DL01');
-insert into product_color values('C09','DL01');
-insert into product_color values('C09','DL02');
-insert into product_color values('C07','DL02');
-insert into product_color values('C05','DL02');
-insert into product_color values('C06','DL02');
-insert into product_color values('C01','DL03');
-insert into product_color values('C02','DL03');
-insert into product_color values('C03','DL03');
-insert into product_color values('C04','DL03');
-insert into product_color values('C05','DL04');
-insert into product_color values('C08','DL04');
-insert into product_color values('C10','DL04');
-insert into product_color values('C07','DL04');
-insert into product_color values('C09','DL05');
-insert into product_color values('C04','DL05');
-insert into product_color values('C03','DL05');
-insert into product_color values('C02','DL05');
-insert into product_color values('C01','DL06');
-insert into product_color values('C02','DL06');
-insert into product_color values('C05','DL06');
-insert into product_color values('C07','DL06');
 
 
 
-insert into product_color values('C01','CL01');
-insert into product_color values('C05','CL01');
-insert into product_color values('C07','CL01');
-insert into product_color values('C09','CL01');
-insert into product_color values('C03','CL02');
-insert into product_color values('C05','CL02');
-insert into product_color values('C06','CL02');
-insert into product_color values('C10','CL02');
+insert into color values('C01','Orenge Red');
+insert into color values('C02','Peach');                            
+insert into color values('C03','Playful Pink');
+insert into color values('C04','Sweet Pink');
+insert into color values('C05','Plum');
+insert into color values('C06','Warm Brown');
+insert into color values('C07','Bronze');
+insert into color values('C08','Luminous Gold');
+insert into color values('C09','Khaki');
+insert into color values('C10','Navy');
+insert into color values('C11','Nude Pink');
+insert into color values('C12','Rosy');                            
+insert into color values('C13','Smoky');
+insert into color values('C14','Fuchsia');
+insert into color values('C15','Osee Satin');
+insert into color values('C16','Rouge Orenge');
+insert into color values('C17','Velvet');
+insert into color values('C18','Hot Pink');
+insert into color values('C19','Party Red');
+insert into color values('C20','Diamond');
+insert into color values('C21','Nude Orenge');
+insert into color values('C22','Hot Orenge');
+insert into color values('C23','Silver Gold');
+insert into color values('C24','Red Brown');
+insert into color values('C25','Chance');
+insert into color values('C26','Zenith');
+insert into color values('C27','Coco');
+insert into color values('C28','Pimpante');
+insert into color values('C29','Pirate');
+insert into color values('C30','Rose Gold');
+insert into color values('C31','Deep Sea');
+insert into color values('C32','Nude Pink Gold');
+insert into color values('C33','Red Plum');
+insert into color values('C34','Flavor Pink');
+insert into color values('C35','Orenge Peach');
+
+
+
+insert into product_color values('C25','CL01');
+insert into product_color values('C26','CL01');
+insert into product_color values('C25','CL02');
+insert into product_color values('C27','CL02');
 insert into product_color values('C01','CL03');
-insert into product_color values('C03','CL03');
-insert into product_color values('C05','CL03');
-insert into product_color values('C09','CL03');
-insert into product_color values('C01','CL04');
-insert into product_color values('C02','CL04');
-insert into product_color values('C05','CL04');
-insert into product_color values('C07','CL04');
-insert into product_color values('C03','CL05');
-insert into product_color values('C07','CL05');
-insert into product_color values('C09','CL05');
-insert into product_color values('C10','CL05');
-insert into product_color values('C01','CL06');
-insert into product_color values('C02','CL06');
-insert into product_color values('C03','CL06');
-insert into product_color values('C04','CL06');
+insert into product_color values('C28','CL03');
+insert into product_color values('C29','CL03');
+insert into product_color values('C12','CB01');
+insert into product_color values('C17','CB01');
+insert into product_color values('C08','CB02');
+insert into product_color values('C11','CB02');
+insert into product_color values('C22','CB03');
+insert into product_color values('C21','CB03');
+insert into product_color values('C21','CE01');
+insert into product_color values('C13','CE01');
+insert into product_color values('C20','CE02');
+insert into product_color values('C23','CE02');
+insert into product_color values('C02','CE03');
+insert into product_color values('C24','CE03');
 
 
 
-insert into product_color values('C01','NL01');
-insert into product_color values('C02','NL01');
-insert into product_color values('C03','NL01');
-insert into product_color values('C04','NL01');
-insert into product_color values('C02','NL02');
-insert into product_color values('C05','NL02');
-insert into product_color values('C06','NL02');
-insert into product_color values('C07','NL02');
-insert into product_color values('C01','NL03');
-insert into product_color values('C04','NL03');
-insert into product_color values('C06','NL03');
-insert into product_color values('C08','NL03');
-insert into product_color values('C02','NL04');
-insert into product_color values('C05','NL04');
-insert into product_color values('C09','NL04');
-insert into product_color values('C10','NL04');
-insert into product_color values('C03','NL05');
-insert into product_color values('C04','NL05');
-insert into product_color values('C05','NL05');
-insert into product_color values('C06','NL05');
-insert into product_color values('C04','NL06');
-insert into product_color values('C08','NL06');
-insert into product_color values('C09','NL06');
-insert into product_color values('C10','NL06');
-
-
+insert into product_color values('C14','CL01');
+insert into product_color values('C01','CL01');
+insert into product_color values('C15','CL02');
+insert into product_color values('C16','CL02');
+insert into product_color values('C17','CL02');
+insert into product_color values('C18','CL03');
+insert into product_color values('C19','CL03');
 insert into product_color values('C01','CB01');
+insert into product_color values('C02','CB01');
 insert into product_color values('C03','CB01');
-insert into product_color values('C04','CB01');
-insert into product_color values('C07','CB01');
 insert into product_color values('C02','CB02');
 insert into product_color values('C04','CB02');
-insert into product_color values('C05','CB02');
-insert into product_color values('C08','CB02');
-insert into product_color values('C03','CB03');
-insert into product_color values('C04','CB03');
 insert into product_color values('C05','CB03');
-insert into product_color values('C09','CB03');
-insert into product_color values('C05','CB04');
-insert into product_color values('C06','CB04');
-insert into product_color values('C09','CB04');
-insert into product_color values('C10','CB04');
-insert into product_color values('C03','CB05');
-insert into product_color values('C05','CB05');
-insert into product_color values('C08','CB05');
-insert into product_color values('C09','CB05');
-insert into product_color values('C02','CB06');
-insert into product_color values('C06','CB06');
-insert into product_color values('C08','CB06');
-insert into product_color values('C10','CB06');
-
-
-
-insert into product_color values('C01','DB01');
-insert into product_color values('C03','DB01');
-insert into product_color values('C04','DB01');
-insert into product_color values('C05','DB01');
-insert into product_color values('C02','DB02');
-insert into product_color values('C03','DB02');
-insert into product_color values('C04','DB02');
-insert into product_color values('C05','DB02');
-insert into product_color values('C01','DB03');
-insert into product_color values('C03','DB03');
-insert into product_color values('C05','DB03');
-insert into product_color values('C07','DB03');
-insert into product_color values('C03','DB04');
-insert into product_color values('C05','DB04');
-insert into product_color values('C06','DB04');
-insert into product_color values('C09','DB04');
-insert into product_color values('C02','DB05');
-insert into product_color values('C03','DB05');
-insert into product_color values('C05','DB05');
-insert into product_color values('C10','DB05');
-insert into product_color values('C05','DB06');
-insert into product_color values('C06','DB06');
-insert into product_color values('C07','DB06');
-insert into product_color values('C08','DB06');
-
-
-
-insert into product_color values('C01','NB01');
-insert into product_color values('C02','NB01');
-insert into product_color values('C03','NB01');
-insert into product_color values('C04','NB01');
-insert into product_color values('C03','NB02');
-insert into product_color values('C04','NB02');
-insert into product_color values('C05','NB02');
-insert into product_color values('C06','NB02');
-insert into product_color values('C02','NB03');
-insert into product_color values('C04','NB03');
-insert into product_color values('C08','NB03');
-insert into product_color values('C10','NB03');
-insert into product_color values('C03','NB04');
-insert into product_color values('C08','NB04');
-insert into product_color values('C09','NB04');
-insert into product_color values('C10','NB04');
-insert into product_color values('C01','NB05');
-insert into product_color values('C04','NB05');
-insert into product_color values('C08','NB05');
-insert into product_color values('C09','NB05');
-insert into product_color values('C07','NB06');
-insert into product_color values('C08','NB06');
-insert into product_color values('C09','NB06');
-insert into product_color values('C10','NB06');
-
-
-
-insert into product_color values('C01','DE01');
-insert into product_color values('C03','DE01');
-insert into product_color values('C05','DE01');
-insert into product_color values('C09','DE01');
-insert into product_color values('C02','DE02');
-insert into product_color values('C04','DE02');
-insert into product_color values('C06','DE02');
-insert into product_color values('C10','DE02');
-insert into product_color values('C02','DE03');
-insert into product_color values('C05','DE03');
-insert into product_color values('C07','DE03');
-insert into product_color values('C09','DE03');
-insert into product_color values('C05','DE04');
-insert into product_color values('C06','DE04');
-insert into product_color values('C08','DE04');
-insert into product_color values('C10','DE04');
-insert into product_color values('C01','DE05');
-insert into product_color values('C02','DE05');
-insert into product_color values('C05','DE05');
-insert into product_color values('C08','DE05');
-insert into product_color values('C01','DE06');
-insert into product_color values('C03','DE06');
-insert into product_color values('C05','DE06');
-insert into product_color values('C07','DE06');
-
-
-
-insert into product_color values('C02','CE01');
-insert into product_color values('C04','CE01');
-insert into product_color values('C05','CE01');
+insert into product_color values('C06','CB03');
+insert into product_color values('C07','CE01');
 insert into product_color values('C08','CE01');
-insert into product_color values('C01','CE02');
-insert into product_color values('C03','CE02');
-insert into product_color values('C06','CE02');
-insert into product_color values('C07','CE02');
-insert into product_color values('C01','CE03');
-insert into product_color values('C02','CE03');
-insert into product_color values('C03','CE03');
-insert into product_color values('C04','CE03');
-insert into product_color values('C02','CE04');
-insert into product_color values('C05','CE04');
-insert into product_color values('C07','CE04');
-insert into product_color values('C10','CE04');
-insert into product_color values('C03','CE05');
-insert into product_color values('C04','CE05');
-insert into product_color values('C05','CE05');
-insert into product_color values('C08','CE05');
-insert into product_color values('C04','CE06');
-insert into product_color values('C06','CE06');
-insert into product_color values('C08','CE06');
-insert into product_color values('C10','CE06');
+insert into product_color values('C09','CE02');
+insert into product_color values('C10','CE02');
+insert into product_color values('C11','CE02');
+insert into product_color values('C12','CE03');
+insert into product_color values('C13','CE03');
 
 
 
+insert into product_color values('C25','NL01');
+insert into product_color values('C34','NL01');
+insert into product_color values('C35','NL01');
+insert into product_color values('C11','NL02');
+insert into product_color values('C05','NL02');
+insert into product_color values('C11','NL03');
+insert into product_color values('C19','NL03');
+insert into product_color values('C25','NB01');
+insert into product_color values('C11','NB01');
+insert into product_color values('C19','NB01');
+insert into product_color values('C30','NB02');
+insert into product_color values('C12','NB02');
+insert into product_color values('C22','NB03');
+insert into product_color values('C11','NB03');
+insert into product_color values('C29','NE01');
+insert into product_color values('C30','NE01');
+insert into product_color values('C31','NE02');
+insert into product_color values('C08','NE02');
+insert into product_color values('C32','NE03');
+insert into product_color values('C33','NE03');
 
-insert into product_color values('C01','NE01');
-insert into product_color values('C03','NE01');
-insert into product_color values('C05','NE01');
-insert into product_color values('C06','NE01');
-insert into product_color values('C05','NE02');
-insert into product_color values('C06','NE02');
-insert into product_color values('C07','NE02');
-insert into product_color values('C09','NE02');
-insert into product_color values('C02','NE03');
-insert into product_color values('C03','NE03');
-insert into product_color values('C04','NE03');
-insert into product_color values('C10','NE03');
-insert into product_color values('C02','NE04');
-insert into product_color values('C03','NE04');
-insert into product_color values('C05','NE04');
-insert into product_color values('C08','NE04');
-insert into product_color values('C01','NE05');
-insert into product_color values('C04','NE05');
-insert into product_color values('C08','NE05');
-insert into product_color values('C10','NE05');
-insert into product_color values('C06','NE06');
-insert into product_color values('C07','NE06');
-insert into product_color values('C09','NE06');
-insert into product_color values('C10','NE06');
+
+
 
 
 
