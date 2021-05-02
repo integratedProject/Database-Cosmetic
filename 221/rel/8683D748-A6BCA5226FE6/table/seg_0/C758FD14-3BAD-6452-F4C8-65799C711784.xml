@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C758FD14-3BAD-6452-F4C8-65799C711784" name="Product_color">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ColorId" id="DD5E7EF4-E49B-3C78-CB94-056AB9949AD6">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+<associations>
+<colAssociation fkAssociation="1BF6CECE-057E-F9EB-2AE2-395E3D3EDBA7" referredColumn="E2FD8824-5FD1-6378-AF49-00B5640EC03F"/>
+</associations>
+</Column>
+<Column name="ProductId" id="EDAED2EB-D500-7080-7115-FBADB8615A31">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+<associations>
+<colAssociation fkAssociation="8531ADCC-8371-D3FD-ADDD-D1CBB7A81966" referredColumn="0999989C-F859-06B8-B7DA-16B4A60A3958"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBA2EB17-7610-92AB-D145-54962957E6C4" name="Relation_1_PK">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD5E7EF4-E49B-3C78-CB94-056AB9949AD6"/>
+<colUsage columnID="EDAED2EB-D500-7080-7115-FBADB8615A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="814FC094-9511-F57F-18FE-3529E1E2914C" name="Relation_1_Color_FK">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>AABD579E-0279-33D5-6351-3FFAACEEDEA5</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD5E7EF4-E49B-3C78-CB94-056AB9949AD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73490023-EE2A-4127-1B4F-05CA234C6E8C" name="Relation_1_Product_FK">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>AABD579E-0279-33D5-6351-3FFAACEEDEA5</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDAED2EB-D500-7080-7115-FBADB8615A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

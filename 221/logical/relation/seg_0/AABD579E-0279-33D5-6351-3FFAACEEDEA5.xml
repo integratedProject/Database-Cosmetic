@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Product_color" directorySegmentName="seg_0" id="AABD579E-0279-33D5-6351-3FFAACEEDEA5">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:52:53 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<engineerTo>
+<item key="8683D748-94C2-D2B2-573D-A6BCA5226FE6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>91D98A86-4B82-6E61-79BD-19123F3C072A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>229E41B0-BF82-53B6-CFFD-125A4E6C04B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="ColorId" id="AFD683AF-128E-D424-F036-5DB555FB21AC">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-26 14:13:15 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<engineerTo>
+<item key="8683D748-94C2-D2B2-573D-A6BCA5226FE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="ProductId" id="0B7F6CC0-78D1-6D05-1B12-0F9BA1CBFF25">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-26 14:13:15 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<engineerTo>
+<item key="8683D748-94C2-D2B2-573D-A6BCA5226FE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

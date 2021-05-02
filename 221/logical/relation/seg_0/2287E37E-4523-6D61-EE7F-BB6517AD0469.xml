@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Product Brand FK" directorySegmentName="seg_0" id="2287E37E-4523-6D61-EE7F-BB6517AD0469">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:53:30 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<engineerTo>
+<item key="8683D748-94C2-D2B2-573D-A6BCA5226FE6" value="true"/>
+</engineerTo>
+<sourcePk>48FDBCD3-4947-B1FD-D389-45A76D8AD8E1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>816014C2-CA9C-D19A-8E31-D900F5CF09BB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>229E41B0-BF82-53B6-CFFD-125A4E6C04B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

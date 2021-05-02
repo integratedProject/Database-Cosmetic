@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="366BC445-5295-AAEC-EEFB-41BC47906FAE" name="Product">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>229E41B0-BF82-53B6-CFFD-125A4E6C04B9</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductId" id="0999989C-F859-06B8-B7DA-16B4A60A3958">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>36DE9123-E19E-837F-2629-AA52F885626B</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductName" id="D066F06D-085D-4CAE-267D-73E87F59A579">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>BB284071-A313-6775-48BF-BDF3A8E7B731</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="F7E2F678-74F7-43B3-BA6F-56250375E2ED">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>8AD8BB7E-948D-AEA6-B8E6-52053E49A6A9</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Launch_Date" id="10C71B7E-FD68-7862-2D22-8167F660F1C0">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>3DB0EDA4-2953-3864-028F-110E596E81FE</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="DC665D52-9BF1-AD94-25C9-F939221B047D">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>0FE43F99-444C-45D3-F97D-06A54AD51EA4</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Brand_BrandId" id="772FBA16-4D05-C229-55E7-1E5D9C5787E3">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>4D85346B-0287-A136-66F1-649234F9078E</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE98590E-23EF-52C0-A3AB-F83A579361A7" referredColumn="5AE6174F-87EF-9FA6-971D-B487AA9F9469"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E2568D1-11A8-5ED5-F4E7-0231FB4C16E4" name="Product_PK">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>9C3D39AA-135C-DE8D-94C7-C73B5D310C0F</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0999989C-F859-06B8-B7DA-16B4A60A3958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB3F6B06-E897-265E-CC99-45764B9D67A6" name="Product_Brand_FK">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:55:18 UTC</createdTime>
+<generatorID>2287E37E-4523-6D61-EE7F-BB6517AD0469</generatorID>
+<ownerDesignName>221</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="772FBA16-4D05-C229-55E7-1E5D9C5787E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

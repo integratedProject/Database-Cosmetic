@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91D98A86-4B82-6E61-79BD-19123F3C072A" name="Color">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:51:21 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<engineerTo>
+<item key="8683D748-94C2-D2B2-573D-A6BCA5226FE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ColorId" id="D8401E33-21D3-FF40-D1D1-E5B435E48611">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:52:12 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<engineerTo>
+<item key="8683D748-94C2-D2B2-573D-A6BCA5226FE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ColorName" id="F6E8453E-8995-F14B-945B-433B56D6B9FC">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:52:26 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<engineerTo>
+<item key="8683D748-94C2-D2B2-573D-A6BCA5226FE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A95999FC-7788-CAF4-6083-2F7ADFA14C03" name="Color PK">
+<createdBy>1809</createdBy>
+<createdTime>2021-04-22 16:52:24 UTC</createdTime>
+<ownerDesignName>221</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8683D748-94C2-D2B2-573D-A6BCA5226FE6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8401E33-21D3-FF40-D1D1-E5B435E48611</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
