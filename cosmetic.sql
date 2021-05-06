@@ -1,7 +1,4 @@
-<<<<<<< HEAD:db.sql
-
-=======
-USE_cosmetic:
+USE cosmetic;
 CREATE TABLE brand (
     brandid    VARCHAR(10) NOT NULL,
     brandname  VARCHAR(50)
@@ -50,7 +47,6 @@ ALTER TABLE product_color
     ADD CONSTRAINT relation_1_product_fk FOREIGN KEY ( productid )
         REFERENCES product ( productid );
 
->>>>>>> 9e0f369c729f65643a3ac04b033aa10f24ec0746:cosmetic.sql
 insert into brand values('B01','CHANEL');
 insert into brand values('B02','DIOR');
 insert into brand values('B03','NARS');
