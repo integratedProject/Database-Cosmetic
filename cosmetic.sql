@@ -8,7 +8,8 @@ ALTER TABLE brand ADD CONSTRAINT brand_pk PRIMARY KEY ( brandid );
 
 CREATE TABLE color (
     colorid    VARCHAR(10) NOT NULL,
-    colorname  VARCHAR(50)
+    colorname  VARCHAR(50),
+    codecolor  VARCHAR(100)
 );
 
 ALTER TABLE color ADD CONSTRAINT color_pk PRIMARY KEY ( colorid );
@@ -28,6 +29,7 @@ ALTER TABLE product ADD CONSTRAINT product_pk PRIMARY KEY ( productid );
 CREATE TABLE product_color (
     colorid    VARCHAR(10) NOT NULL,
     productid  VARCHAR(10) NOT NULL
+    
 );
 
 ALTER TABLE product_color ADD CONSTRAINT relation_1_pk PRIMARY KEY ( colorid,
@@ -157,41 +159,41 @@ insert into product values('NE03','The orgasm bundle','NE03_RedPlum.jpg',
 
 
 
-insert into color values('C01','Orenge Red');
-insert into color values('C02','Peach');                            
-insert into color values('C03','Playful Pink');
-insert into color values('C04','Sweet Pink');
-insert into color values('C05','Plum');
-insert into color values('C06','Warm Brown');
-insert into color values('C07','Bronze');
-insert into color values('C08','Luminous Gold');
-insert into color values('C09','Khaki');
-insert into color values('C10','Navy');
-insert into color values('C11','Nude Pink');
-insert into color values('C12','Rosy');                            
-insert into color values('C13','Smoky');
-insert into color values('C14','Fuchsia');
-insert into color values('C15','Osee Satin');
-insert into color values('C16','Rouge Orenge');
-insert into color values('C17','Velvet');
-insert into color values('C18','Hot Pink');
-insert into color values('C19','Party Red');
-insert into color values('C20','Diamond');
-insert into color values('C21','Nude Orenge');
-insert into color values('C22','Hot Orenge');
-insert into color values('C23','Silver Gold');
-insert into color values('C24','Red Brown');
-insert into color values('C25','Chance');
-insert into color values('C26','Zenith');
-insert into color values('C27','Coco');
-insert into color values('C28','Pimpante');
-insert into color values('C29','Pirate');
-insert into color values('C30','Rose Gold');
-insert into color values('C31','Deep Sea');
-insert into color values('C32','Nude Pink Gold');
-insert into color values('C33','Red Plum');
-insert into color values('C34','Flavor Pink');
-insert into color values('C35','Orenge Peach');
+insert into color values('C01','Orenge Red','#f94d4f');
+insert into color values('C02','Peach','#e1b0a9');                            
+insert into color values('C03','Playful Pink','#f6747e');
+insert into color values('C04','Sweet Pink','#f19eb3');
+insert into color values('C05','Plum','#a04e60');
+insert into color values('C06','Warm Brown','#8e7066');
+insert into color values('C07','Bronze','#b1816d');
+insert into color values('C08','Luminous Gold','#ca9964');
+insert into color values('C09','Khaki','#82806c');
+insert into color values('C10','Navy','#847e94');
+insert into color values('C11','Nude Pink','#f5aba9');
+insert into color values('C12','Rosy','#dd7a75');                            
+insert into color values('C13','Smoky','#787a77');
+insert into color values('C14','Fuchsia','#c41556');
+insert into color values('C15','Osee Satin','#dd7381');
+insert into color values('C16','Rouge Orenge','#f26c48');
+insert into color values('C17','Velvet','#c0534f');
+insert into color values('C18','Hot Pink','#e11543');
+insert into color values('C19','Party Red','#fd262c');
+insert into color values('C20','Diamond','#f4f2f0');
+insert into color values('C21','Nude Orenge','#df8670');
+insert into color values('C22','Hot Orenge','#f07775');
+insert into color values('C23','Silver Gold','#c0b794');
+insert into color values('C24','Red Brown','#944440');
+insert into color values('C25','Chance','#c07367');
+insert into color values('C26','Zenith','#d64c56');
+insert into color values('C27','Coco','#ea483d');
+insert into color values('C28','Pimpante','#ff8474');
+insert into color values('C29','Pirate','#a12f33');
+insert into color values('C30','Rose Gold','#de9a97');
+insert into color values('C31','Deep Sea','#5a6194');
+insert into color values('C32','Nude Pink Gold','#e9a590');
+insert into color values('C33','Red Plum','#b05b73');
+insert into color values('C34','Flavor Pink','#f64382');
+insert into color values('C35','Orenge Peach','#fd4f4f');
 
 
 
