@@ -133,5 +133,5 @@ UNLOCK TABLES;
 
 -- Dump completed on 2021-05-05 16:32:56
 create user 'powerpuffgirl'@'172.30.0.4' identified by 'powerpuffgirl1234';
-grant select,update,delete on cosmetic.product to 'powerpuffgirl'@'172.30.0.4';
+grant select,update,delete,insert on cosmetic.product to 'powerpuffgirl'@'172.30.0.4';
 
