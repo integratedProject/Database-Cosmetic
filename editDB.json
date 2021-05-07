@@ -1,0 +1,30 @@
+{
+    "productId": "PD01",
+    "productName": "Palette essentielle",
+    "productImage": "https://www.chanel.com/images//t_one//w_0.43,h_0.43,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/palette-essentielle-ete-highlight-color-190-eclat-solaire-0-31oz#packshot-default-149190-8835355574302.jpg",
+    "price": 2550.0,
+    "launchDate": "2020-06-23",
+    "description": "PALETTE ESSENTIELLE HIGHLIGHT CREAM FOR SUMMER. Two in one value of a cream highlighter for the face and to add color with just the tip of the brush. The perfect match of three colors for easy makeup application at any time of the day. Both highlighter creams that fill light-prone areas of the face. With a bright red to highlight the cheekbones or as a lip tint. So your skin looks vibrant again and your face looks radiant. Sparkling, brimming with beauty",
+    "brandId": {
+        "brandId": "B01",
+        "brandName": "CHANEL"
+    },
+    "colors": [
+        {
+            "colorId": "C02",
+            "colorName": "Pink"
+        },
+        {
+            "colorId": "C04",
+            "colorName": "Nude"
+        },
+        {
+            "colorId": "C05",
+            "colorName": "Brown"
+        },
+        {
+            "colorId": "C08",
+            "colorName": "Purple"
+        }
+    ]
+}
