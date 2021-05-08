@@ -1,26 +1,26 @@
 USE cosmetic;
 CREATE TABLE brand (
     brandid    VARCHAR(10) NOT NULL,
-    brandname  VARCHAR(50)
+    brandname  VARCHAR(50) NOT NULL
 );
 
 ALTER TABLE brand ADD CONSTRAINT brand_pk PRIMARY KEY ( brandid );
 
 CREATE TABLE color (
     colorid    VARCHAR(10) NOT NULL,
-    colorname  VARCHAR(50),
-    codecolor  VARCHAR(100)
+    colorname  VARCHAR(50) NOT NULL,
+    codecolor  VARCHAR(100) NOT NULL
 );
 
 ALTER TABLE color ADD CONSTRAINT color_pk PRIMARY KEY ( colorid );
 
 CREATE TABLE product (
     productid VARCHAR(36) NOT NULL,
-    productname    VARCHAR(100),
-    productimage   VARCHAR(200),
-    price          DECIMAL(7, 2),
-    launch_date    DATE,
-    description    VARCHAR(4000),
+    productname    VARCHAR(100) NOT NULL,
+    productimage   VARCHAR(200) NOT NULL,
+    price          DECIMAL(7, 2) NOT NULL,
+    launch_date    DATE NOT NULL,
+    description    VARCHAR(4000) NOT NULL,
     brand_brandid  VARCHAR(10) NOT NULL
 );
 
