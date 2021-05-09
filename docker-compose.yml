@@ -7,7 +7,7 @@ services:
     image: mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: powerpuffgirl1234
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
     volumes:  
       - ./data-mysql:/var/lib/mysql
       - ./cosmetic.sql:/cosmetic.sql
